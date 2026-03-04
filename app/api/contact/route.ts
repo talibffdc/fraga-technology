@@ -77,7 +77,7 @@ export async function POST(request: Request) {
     }
 
     const resend = new Resend(apiKey)
-    const contactEmail = process.env.CONTACT_EMAIL || "contact@fragatechnology.com"
+    const contactEmail = process.env.CONTACT_EMAIL || "talibffdc@gmail.com"
     const { firstName, lastName, email, phone, subject, message } = body
 
     const safeName = sanitize(`${firstName} ${lastName || ""}`.trim())
