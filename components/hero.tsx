@@ -19,7 +19,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground"
         >
-          Website Development Companyyy | App Development | SEO Services
+          Website Development Company | App Development | SEO Services
         </motion.p>
 
         <motion.h1
