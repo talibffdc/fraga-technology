@@ -129,7 +129,7 @@ export default function Footer() {
               ))}
             </ul>
             <div className="mt-8 text-sm text-background/40">
-              <p>contact@fragatechnology.com</p>
+              <p>fragatechnology@gmail.com</p>
               <p className="mt-1">+91 9235000195</p>
               <p className="mt-1">F.F.D.C Kannauj, India</p>
             </div>
