@@ -1,5 +1,7 @@
 import { getAllPostsMeta } from "@/lib/blog"
 import { getAllServiceSlugs } from "@/lib/services"
+import { getAllIndustrySlugs } from "@/lib/industries"
+import { getAllLocationSlugs } from "@/lib/locations"
 import { siteConfig } from "@/lib/site-config"
 import type { MetadataRoute } from "next"
 
@@ -25,6 +27,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/industries`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/locations`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ]
 
   const serviceSlugs = getAllServiceSlugs()
@@ -35,6 +49,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
 
+  const industrySlugs = getAllIndustrySlugs()
+  const industryPages: MetadataRoute.Sitemap = industrySlugs.map((slug) => ({
+    url: `${baseUrl}/industries/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }))
+
+  const locationSlugs = getAllLocationSlugs()
+  const locationPages: MetadataRoute.Sitemap = locationSlugs.map((slug) => ({
+    url: `${baseUrl}/locations/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }))
+
   const posts = getAllPostsMeta()
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
@@ -43,5 +73,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...staticPages, ...servicePages, ...blogPages]
+  return [...staticPages, ...servicePages, ...industryPages, ...locationPages, ...blogPages]
 }

@@ -270,6 +270,172 @@ export const industries: Record<string, IndustryData> = {
       }
     ],
     ctaText: "Get Legal Marketing Quote"
+  },
+  "saas": {
+    slug: "saas",
+    title: "SaaS & Startups",
+    tagline: "Digital Growth Solutions for SaaS Companies & Tech Startups",
+    description:
+      "Fraga Technology provides specialized web development and digital marketing services for SaaS companies, tech startups, and software businesses. We understand the unique challenges of scaling a SaaS business—from building high-converting landing pages to implementing product-led growth strategies. Our team helps SaaS companies acquire users, reduce churn, and scale efficiently through targeted digital marketing campaigns.",
+    metaTitle: "SaaS Website Development & Marketing | Startup Digital Agency | Fraga Technology",
+    metaDescription:
+      "SaaS website development and startup marketing services. Landing pages, product marketing, SEO & paid ads for software companies. Call +91 9235000195",
+    keywords: [
+      "SaaS website development",
+      "startup marketing agency",
+      "SaaS digital marketing",
+      "software company website",
+      "SaaS landing page design",
+      "B2B SaaS marketing",
+      "startup growth marketing",
+      "product-led growth agency"
+    ],
+    heroText:
+      "We help SaaS companies and tech startups build compelling digital experiences that convert visitors into paying customers. From high-converting landing pages to comprehensive growth marketing campaigns, our team combines startup DNA with marketing expertise to accelerate your growth trajectory.",
+    challenges: [
+      "High customer acquisition costs eating into runway",
+      "Low trial-to-paid conversion rates",
+      "Difficulty explaining complex products simply",
+      "Competing against well-funded competitors for keywords",
+      "Long sales cycles slowing revenue growth",
+      "Website not effectively demonstrating product value"
+    ],
+    services: [
+      {
+        title: "SaaS Website Development",
+        description: "High-performance websites built for conversion. Feature tours, pricing pages, integrations pages, and documentation sites optimized for user acquisition."
+      },
+      {
+        title: "Landing Page Design",
+        description: "Conversion-optimized landing pages for campaigns, features, and use cases. A/B testing ready with fast load times for paid traffic."
+      },
+      {
+        title: "SaaS SEO Strategy",
+        description: "Bottom-of-funnel SEO targeting high-intent buyers. Competitor comparison pages, alternative pages, and feature-specific content that drives trials."
+      },
+      {
+        title: "Google Ads for SaaS",
+        description: "Search campaigns targeting software buyers. Competitor keywords, problem-aware queries, and branded defense with optimized trial signup flows."
+      },
+      {
+        title: "Content Marketing",
+        description: "Thought leadership content, blog posts, and resource pages that attract your ICP. SEO-driven content strategy aligned with buyer journey."
+      },
+      {
+        title: "Product Marketing",
+        description: "Feature announcements, product launches, and messaging strategy that resonates with your target audience and differentiates from competitors."
+      }
+    ],
+    benefits: [
+      "Increase trial signups by 2-3x with optimized funnels",
+      "Reduce customer acquisition cost over time with SEO",
+      "Build authority in your product category",
+      "Compete effectively against larger competitors",
+      "Create scalable, repeatable growth channels",
+      "Accelerate time-to-revenue for new features"
+    ],
+    faqs: [
+      {
+        question: "How is SaaS marketing different from other industries?",
+        answer: "SaaS marketing focuses on user acquisition, activation, and retention. Metrics like CAC, LTV, trial conversion rates, and churn matter more than vanity metrics. We optimize for product signups and activation rather than just traffic."
+      },
+      {
+        question: "Can you help with our product messaging?",
+        answer: "Yes, we help SaaS companies clarify their value proposition, positioning, and messaging. We create messaging that resonates with your ICP and differentiates from competitors—crucial for both website copy and advertising."
+      },
+      {
+        question: "What's your experience with SaaS companies?",
+        answer: "We've worked with B2B SaaS companies, developer tools, and tech startups across various stages. We understand product-led growth, freemium models, and enterprise sales cycles."
+      },
+      {
+        question: "Do you integrate with tools like Segment, Amplitude, or Mixpanel?",
+        answer: "Yes, we implement proper analytics tracking including Segment, Amplitude, Mixpanel, and other product analytics tools. We ensure conversion tracking is accurate for data-driven optimization."
+      }
+    ],
+    ctaText: "Get SaaS Growth Strategy"
+  },
+  "ecommerce": {
+    slug: "ecommerce",
+    title: "E-commerce",
+    tagline: "Digital Solutions for Online Stores & E-commerce Brands",
+    description:
+      "Fraga Technology provides comprehensive ecommerce website development and digital marketing services for online retailers, D2C brands, and marketplace sellers. We build high-converting online stores and implement marketing strategies that drive sales, increase average order value, and build customer loyalty. From Shopify customizations to custom ecommerce platforms, we help brands sell more online.",
+    metaTitle: "Ecommerce Website Development | Online Store Marketing | Fraga Technology",
+    metaDescription:
+      "Ecommerce website development and online store marketing. Shopify, WooCommerce, custom stores. SEO, Google Shopping & Meta Ads. Call +91 9235000195",
+    keywords: [
+      "ecommerce website development",
+      "online store development India",
+      "Shopify development",
+      "WooCommerce development",
+      "ecommerce digital marketing",
+      "Google Shopping ads",
+      "ecommerce SEO services",
+      "D2C brand marketing"
+    ],
+    heroText:
+      "We help e-commerce brands build beautiful, high-converting online stores and implement marketing strategies that drive consistent revenue growth. From product page optimization to multi-channel advertising, our team maximizes your store's potential across every customer touchpoint.",
+    challenges: [
+      "High cart abandonment rates killing revenue",
+      "Rising cost per acquisition on paid channels",
+      "Struggling to compete with marketplace giants",
+      "Low organic visibility for product searches",
+      "Poor mobile conversion rates despite high traffic",
+      "Difficulty building repeat purchase behavior"
+    ],
+    services: [
+      {
+        title: "Ecommerce Website Development",
+        description: "Custom online stores built on Shopify, WooCommerce, or headless architecture. Optimized checkout flows, product pages, and category navigation."
+      },
+      {
+        title: "Shopify Development",
+        description: "Custom Shopify themes, app integrations, and store optimizations. Shopify Plus expertise for high-volume merchants."
+      },
+      {
+        title: "Ecommerce SEO",
+        description: "Product page optimization, category SEO, and technical ecommerce SEO. Rank for buying-intent product searches and compete with marketplaces."
+      },
+      {
+        title: "Google Shopping Ads",
+        description: "Product feed optimization, Shopping campaign management, and Performance Max campaigns. Maximize ROAS with strategic bidding and audience targeting."
+      },
+      {
+        title: "Meta Ads for Ecommerce",
+        description: "Facebook and Instagram advertising with dynamic product ads, catalog sales campaigns, and retargeting for abandoned carts."
+      },
+      {
+        title: "Conversion Rate Optimization",
+        description: "A/B testing, checkout optimization, and UX improvements that increase conversion rates and average order value."
+      }
+    ],
+    benefits: [
+      "Increase conversion rates by 30-50%",
+      "Reduce cart abandonment with optimized checkout",
+      "Achieve 3-5x ROAS on advertising campaigns",
+      "Rank for profitable product keywords",
+      "Build sustainable direct-to-consumer channel",
+      "Increase customer lifetime value with retention marketing"
+    ],
+    faqs: [
+      {
+        question: "Which ecommerce platform do you recommend?",
+        answer: "It depends on your needs. Shopify is excellent for most D2C brands with its ecosystem and ease of use. WooCommerce offers more flexibility for WordPress users. For high-scale custom needs, we build headless ecommerce solutions. We help you choose based on your products, budget, and growth plans."
+      },
+      {
+        question: "How much does an ecommerce website cost?",
+        answer: "Ecommerce websites range from $2,000 for basic Shopify stores to $15,000+ for custom platforms. Pricing depends on product catalog size, custom features, integrations, and design complexity. Contact us for a detailed quote."
+      },
+      {
+        question: "Can you help with product photography and content?",
+        answer: "We focus on web development and marketing rather than product photography. However, we can recommend trusted partners for product photography and provide guidance on ecommerce content best practices."
+      },
+      {
+        question: "Do you work with marketplace sellers?",
+        answer: "Yes, we help brands selling on Amazon, Flipkart, and other marketplaces build their own D2C presence. We create strategies to diversify away from marketplace dependence while maintaining marketplace revenue."
+      }
+    ],
+    ctaText: "Get Ecommerce Growth Quote"
   }
 }
 
