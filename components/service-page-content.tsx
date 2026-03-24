@@ -279,22 +279,19 @@ export default function ServicePageContent({ service }: { service: ServiceData }
               </h2>
               <div className="flex flex-wrap gap-3">
                 {[
-                  "Real Estate Companies",
-                  "Law Firms",
-                  "Hospitals & Clinics",
-                  "SaaS Startups",
-                  "E-commerce Brands",
-                  "Marketing Agencies",
-                  "Construction Companies",
-                  "Insurance Companies",
-                  "Luxury Brands",
+                  { name: "Real Estate Companies", slug: "real-estate" },
+                  { name: "Law Firms", slug: "law-firms" },
+                  { name: "Hospitals & Clinics", slug: "healthcare" },
+                  { name: "SaaS Startups", slug: "saas" },
+                  { name: "E-commerce Brands", slug: "ecommerce" },
                 ].map((industry) => (
-                  <span
-                    key={industry}
+                  <Link
+                    key={industry.slug}
+                    href={`/industries/${industry.slug}`}
                     className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
                   >
-                    {industry}
-                  </span>
+                    {industry.name}
+                  </Link>
                 ))}
               </div>
             </motion.section>

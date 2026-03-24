@@ -2,6 +2,15 @@
 
 import { motion } from "framer-motion"
 import { Search, Lightbulb, Code2, Rocket } from "lucide-react"
+import Link from "next/link"
+
+const industries = [
+  { name: "Real Estate", slug: "real-estate" },
+  { name: "Law Firms", slug: "law-firms" },
+  { name: "Healthcare", slug: "healthcare" },
+  { name: "SaaS Startups", slug: "saas" },
+  { name: "E-commerce", slug: "ecommerce" },
+]
 
 const strategies = [
   {
@@ -84,23 +93,14 @@ export default function StrategyCards() {
             Industries We Serve
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {[
-              "Real Estate",
-              "Law Firms",
-              "Healthcare",
-              "SaaS Startups",
-              "E-commerce",
-              "Marketing Agencies",
-              "Construction",
-              "Insurance",
-              "Luxury Brands",
-            ].map((industry) => (
-              <span
-                key={industry}
+            {industries.map((industry) => (
+              <Link
+                key={industry.slug}
+                href={`/industries/${industry.slug}`}
                 className="rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-all duration-300 hover:border-primary hover:text-primary"
               >
-                {industry}
-              </span>
+                {industry.name}
+              </Link>
             ))}
           </div>
         </motion.div>
