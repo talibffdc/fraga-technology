@@ -393,3 +393,21 @@ export function getCityNavItems(): Array<{ name: string; slug: string; href: str
 export function getAllCities(): CityData[] {
   return Object.values(cities)
 }
+
+export function getCitiesByCountry(countryName: string): Array<{ name: string; slug: string; href: string }> {
+  return Object.values(cities)
+    .filter((city) => {
+      // Map country names to city filtering logic
+      // Currently all cities are in India, adjust as more countries add cities
+      if (countryName === "India") {
+        return true
+      }
+      // Add more country mappings as cities expand to other countries
+      return false
+    })
+    .map((city) => ({
+      name: city.name,
+      slug: city.slug,
+      href: `/cities/${city.slug}`,
+    }))
+}

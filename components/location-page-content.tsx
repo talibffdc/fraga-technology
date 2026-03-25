@@ -14,6 +14,7 @@ import {
 import { useState } from "react"
 import type { LocationData } from "@/lib/locations"
 import { getLocationNavItems } from "@/lib/locations"
+import { getCitiesByCountry } from "@/lib/cities"
 
 function FAQItem({ faq, index }: { faq: { question: string; answer: string }; index: number }) {
   const [open, setOpen] = useState(false)
@@ -302,6 +303,46 @@ export default function LocationPageContent({ location }: { location: LocationDa
                 ))}
               </div>
             </motion.section>
+
+            {/* Cities We Serve */}
+            {location.country === "India" && (
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="mb-20"
+              >
+                <h2 className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+                  Our Cities
+                </h2>
+                <h3 className="mb-8 font-serif text-2xl font-bold text-foreground md:text-3xl">
+                  <span className="text-balance">We Serve Major Cities Across {location.country}</span>
+                </h3>
+                <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                  {getCitiesByCountry(location.country).map((city, index) => (
+                    <motion.div
+                      key={city.slug}
+                      initial={{ opacity: 0, y: 10 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: index * 0.05 }}
+                    >
+                      <Link
+                        href={city.href}
+                        className="group flex items-center gap-3 rounded-lg border border-border bg-card/50 px-4 py-3 transition-all hover:border-primary/50 hover:bg-primary/5"
+                      >
+                        <MapPin className="h-4 w-4 shrink-0 text-primary" />
+                        <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
+                          {city.name}
+                        </span>
+                        <ChevronRight className="h-3.5 w-3.5 shrink-0 text-muted-foreground group-hover:text-primary transition-colors" />
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.section>
+            )}
 
             {/* Industries */}
             <motion.section
