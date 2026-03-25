@@ -10,6 +10,10 @@ const industries = [
   { name: "Healthcare", slug: "healthcare" },
   { name: "SaaS Startups", slug: "saas" },
   { name: "E-commerce", slug: "ecommerce" },
+  { name: "Marketing Agencies", slug: "marketing-agencies" },
+  { name: "Construction", slug: "construction" },
+  { name: "Insurance", slug: "insurance" },
+  { name: "Luxury Brands", slug: "luxury-brands" },
 ]
 
 const strategies = [

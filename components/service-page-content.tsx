@@ -279,11 +279,15 @@ export default function ServicePageContent({ service }: { service: ServiceData }
               </h2>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { name: "Real Estate Companies", slug: "real-estate" },
+                  { name: "Real Estate", slug: "real-estate" },
                   { name: "Law Firms", slug: "law-firms" },
-                  { name: "Hospitals & Clinics", slug: "healthcare" },
+                  { name: "Healthcare", slug: "healthcare" },
                   { name: "SaaS Startups", slug: "saas" },
-                  { name: "E-commerce Brands", slug: "ecommerce" },
+                  { name: "E-commerce", slug: "ecommerce" },
+                  { name: "Marketing Agencies", slug: "marketing-agencies" },
+                  { name: "Construction", slug: "construction" },
+                  { name: "Insurance", slug: "insurance" },
+                  { name: "Luxury Brands", slug: "luxury-brands" },
                 ].map((industry) => (
                   <Link
                     key={industry.slug}
