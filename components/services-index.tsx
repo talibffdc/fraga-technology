@@ -77,10 +77,10 @@ export default function ServicesIndex() {
                   {/* Title and Description */}
                   <div className="relative z-10 mb-6">
                     <h3 className="mb-3 text-xl font-semibold text-foreground transition-colors group-hover:text-primary">
-                      {service.title}
+                      {service.name}
                     </h3>
                     <p className="text-sm leading-relaxed text-muted-foreground">
-                      Expert {service.title.toLowerCase()} tailored to drive your business growth and deliver measurable results.
+                      Expert {service.name.toLowerCase()} tailored to drive your business growth and deliver measurable results.
                     </p>
                   </div>
 
