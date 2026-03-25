@@ -5,6 +5,8 @@ import { GoogleAnalytics } from "@next/third-parties/google"
 import { siteConfig } from "@/lib/site-config"
 import { organizationSchema, websiteSchema } from "@/lib/schemas"
 import LoadingScreen from "@/components/loading-screen"
+import StickyWhatsAppButton from "@/components/sticky-whatsapp-button"
+import FloatingCallButton from "@/components/floating-call-button"
 import "./globals.css"
 
 const inter = Inter({
@@ -104,6 +106,8 @@ export default function RootLayout({
       <body className="font-sans antialiased" suppressHydrationWarning>
         <LoadingScreen />
         {children}
+        <StickyWhatsAppButton />
+        <FloatingCallButton />
         <Analytics />
         {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
