@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
 import { getServiceNavItems } from "@/lib/services"
+import { getIndustryNavItems } from "@/lib/industries"
 
 const quickLinks = [
   { label: "Home", href: "/#home" },
@@ -22,6 +23,11 @@ export default function Footer() {
   const serviceLinks = getServiceNavItems().map((s) => ({
     label: s.name,
     href: s.href,
+  }))
+
+  const industryLinks = getIndustryNavItems().map((i) => ({
+    label: i.name,
+    href: i.href,
   }))
 
   return (
@@ -47,8 +53,8 @@ export default function Footer() {
           </Link>
         </div>
 
-        {/* 4-Column Layout */}
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        {/* 5-Column Layout */}
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           {/* Logo + Description */}
           <div>
             <Link href="/#home" className="flex items-center gap-2.5">
@@ -97,6 +103,25 @@ export default function Footer() {
             </h4>
             <ul className="flex flex-col gap-3">
               {serviceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-background/60 transition-colors duration-300 hover:text-background"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Industries - dynamic */}
+          <div>
+            <h4 className="mb-6 text-sm font-bold uppercase tracking-[0.15em] text-background/40">
+              Industries
+            </h4>
+            <ul className="flex flex-col gap-3">
+              {industryLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

@@ -436,6 +436,338 @@ export const industries: Record<string, IndustryData> = {
       }
     ],
     ctaText: "Get Ecommerce Growth Quote"
+  },
+  "marketing-agencies": {
+    slug: "marketing-agencies",
+    title: "Marketing Agencies",
+    tagline: "White-Label Digital Solutions for Marketing Agencies",
+    description:
+      "Fraga Technology partners with marketing agencies, advertising firms, and creative studios to provide white-label web development and digital marketing services. We become your silent technical partner—building websites, managing SEO campaigns, and executing paid ads under your brand while you focus on client relationships and strategy.",
+    metaTitle: "White-Label Web Development for Marketing Agencies | Fraga Technology",
+    metaDescription:
+      "White-label website development and digital marketing for agencies. Expand your service offerings without hiring. Reliable agency partner. Call +91 9235000195",
+    keywords: [
+      "white label web development",
+      "agency partner web development",
+      "white label SEO services",
+      "marketing agency outsourcing",
+      "white label digital marketing",
+      "agency web development partner",
+      "outsource web development India",
+      "white label PPC management"
+    ],
+    heroText:
+      "We help marketing agencies expand their service offerings without the overhead of hiring developers or SEO specialists. Our white-label partnership model lets you deliver exceptional web development, SEO, and paid advertising results to your clients—all under your brand name.",
+    challenges: [
+      "Client needs exceeding your in-house capabilities",
+      "Difficulty hiring reliable developers and SEO specialists",
+      "Project backlogs causing client dissatisfaction",
+      "High overhead costs of maintaining technical staff",
+      "Inconsistent quality from freelancers",
+      "Missing revenue opportunities due to limited services"
+    ],
+    services: [
+      {
+        title: "White-Label Website Development",
+        description: "Custom websites delivered under your brand. We handle development while you manage the client relationship. Clean handoff with documentation."
+      },
+      {
+        title: "White-Label SEO Services",
+        description: "Complete SEO execution including audits, on-page optimization, content creation, and link building. Branded reports for your clients."
+      },
+      {
+        title: "White-Label PPC Management",
+        description: "Google Ads and Meta Ads campaign management under your agency name. We optimize, you present the results to clients."
+      },
+      {
+        title: "Agency Overflow Support",
+        description: "Scale up during busy periods without permanent hires. We integrate with your workflow to handle project overflow seamlessly."
+      },
+      {
+        title: "Dedicated Development Team",
+        description: "Dedicated developers working exclusively on your agency's projects. Acts as an extension of your in-house team."
+      },
+      {
+        title: "Technical Consulting",
+        description: "Expert consultation for complex client projects. We help you scope, estimate, and plan technical solutions confidently."
+      }
+    ],
+    benefits: [
+      "Expand service offerings without hiring overhead",
+      "Never turn down client projects due to capacity",
+      "Maintain quality with reliable delivery partner",
+      "Increase profit margins with cost-effective outsourcing",
+      "Scale up or down based on workload",
+      "Focus on sales while we handle execution"
+    ],
+    faqs: [
+      {
+        question: "How does white-label partnership work?",
+        answer: "We work behind the scenes as your technical team. All deliverables are unbranded or branded with your agency name. Your clients never know we exist—you maintain full client ownership and relationships."
+      },
+      {
+        question: "What's your turnaround time for projects?",
+        answer: "Typical website projects take 2-4 weeks depending on complexity. SEO campaigns show results within 3-6 months. We provide clear timelines upfront and communicate proactively on progress."
+      },
+      {
+        question: "Do you sign NDAs?",
+        answer: "Absolutely. We sign comprehensive NDAs and confidentiality agreements. Your client relationships and business information remain completely protected."
+      },
+      {
+        question: "How do you handle client communication?",
+        answer: "You remain the single point of contact for your clients. We communicate only with you, providing updates, reports, and deliverables that you present to clients under your brand."
+      }
+    ],
+    ctaText: "Become Agency Partner"
+  },
+  "construction": {
+    slug: "construction",
+    title: "Construction",
+    tagline: "Digital Marketing Solutions for Construction & Contracting Companies",
+    description:
+      "Fraga Technology provides website development and digital marketing services for construction companies, general contractors, home builders, and specialty trades. We help construction businesses establish professional online presence, generate qualified leads for residential and commercial projects, and build trust with potential clients through compelling project portfolios.",
+    metaTitle: "Construction Company Website Development & Marketing | Fraga Technology",
+    metaDescription:
+      "Construction website development and contractor marketing. Project portfolios, lead generation, local SEO for builders & contractors. Call +91 9235000195",
+    keywords: [
+      "construction company website",
+      "contractor website development",
+      "construction digital marketing",
+      "home builder website",
+      "construction SEO services",
+      "contractor lead generation",
+      "construction company marketing",
+      "builder website design"
+    ],
+    heroText:
+      "We help construction companies, contractors, and home builders attract high-value project leads through professional websites, local SEO dominance, and targeted advertising. Our construction marketing expertise turns your completed projects into powerful sales tools that win new business.",
+    challenges: [
+      "Relying solely on word-of-mouth and referrals",
+      "No professional online presence to showcase work",
+      "Losing bids to competitors with better marketing",
+      "Difficulty reaching homeowners planning projects",
+      "No system for capturing and following up on leads",
+      "Website doesn't reflect quality of your craftsmanship"
+    ],
+    services: [
+      {
+        title: "Construction Website Development",
+        description: "Professional contractor websites with project galleries, service pages, testimonials, and lead capture forms. Mobile-optimized for clients checking you out from job sites."
+      },
+      {
+        title: "Project Portfolio Showcase",
+        description: "Stunning before/after galleries, project case studies with details, and video walkthroughs that demonstrate your craftsmanship and win client trust."
+      },
+      {
+        title: "Local SEO for Contractors",
+        description: "Dominate local search results for contractor searches in your service area. Google Business Profile optimization and location-based keyword targeting."
+      },
+      {
+        title: "Google Ads for Construction",
+        description: "Targeted campaigns reaching homeowners and businesses actively searching for contractors. Service-specific and location-specific ad targeting."
+      },
+      {
+        title: "Reputation Management",
+        description: "Build and manage Google reviews that influence hiring decisions. Automated review requests and professional response management."
+      },
+      {
+        title: "Lead Management System",
+        description: "CRM integration to capture, track, and follow up on every lead. Never lose a potential project due to missed communication."
+      }
+    ],
+    benefits: [
+      "Generate consistent project leads beyond referrals",
+      "Showcase work quality to win more bids",
+      "Dominate local search in your service area",
+      "Build trust before the first meeting",
+      "Attract higher-value residential and commercial projects",
+      "Professional online presence matching your workmanship"
+    ],
+    faqs: [
+      {
+        question: "How much does a construction company website cost?",
+        answer: "Construction websites range from $2,500 for standard contractor sites to $8,000+ for custom builds with extensive project galleries and lead management features. Investment depends on your scope and functionality needs."
+      },
+      {
+        question: "How do you showcase our projects effectively?",
+        answer: "We create compelling project galleries with professional photos, before/after sliders, project details (scope, timeline, budget range), and client testimonials. Video walkthroughs can also be integrated for major projects."
+      },
+      {
+        question: "Can you help us get more Google reviews?",
+        answer: "Yes, we implement automated review request systems that reach out to satisfied clients at the right time. We also help you respond professionally to reviews and manage your online reputation."
+      },
+      {
+        question: "What's the best way to generate construction leads online?",
+        answer: "The most effective approach combines local SEO (ranking for 'contractor near me' searches), Google Ads (targeting active searchers), and a strong Google Business Profile. We develop a strategy based on your services, service area, and budget."
+      }
+    ],
+    ctaText: "Get Construction Marketing Quote"
+  },
+  "insurance": {
+    slug: "insurance",
+    title: "Insurance",
+    tagline: "Digital Marketing Solutions for Insurance Agents & Agencies",
+    description:
+      "Fraga Technology delivers website development and digital marketing services for insurance agents, agencies, and brokers. We help insurance professionals generate qualified leads, build trust online, and compete effectively in a highly regulated industry. Our insurance marketing services include agent websites, local SEO, compliant advertising, and lead generation campaigns.",
+    metaTitle: "Insurance Agent Website Development & Marketing | Fraga Technology",
+    metaDescription:
+      "Insurance website development and agent marketing. Lead generation, local SEO, compliant advertising for insurance agents & agencies. Call +91 9235000195",
+    keywords: [
+      "insurance agent website",
+      "insurance agency marketing",
+      "insurance lead generation",
+      "insurance SEO services",
+      "insurance digital marketing",
+      "insurance agent website design",
+      "insurance Google Ads",
+      "insurance broker marketing"
+    ],
+    heroText:
+      "We help insurance agents and agencies generate qualified leads through professional websites, local SEO, and compliant digital advertising. Our insurance marketing expertise navigates industry regulations while delivering measurable growth in policy inquiries and client acquisition.",
+    challenges: [
+      "Highly competitive market with established players",
+      "Strict advertising regulations and compliance requirements",
+      "Difficulty standing out from other local agents",
+      "Generating quality leads, not just quote shoppers",
+      "Building trust in an industry with skeptical consumers",
+      "Carrier restrictions on marketing and branding"
+    ],
+    services: [
+      {
+        title: "Insurance Agent Website Development",
+        description: "Professional agent websites with quote request forms, service explanations, testimonials, and carrier information. Compliant with industry regulations."
+      },
+      {
+        title: "Insurance SEO",
+        description: "Local SEO targeting insurance searches in your market. Rank for 'insurance agent near me' and specific policy type searches in your service area."
+      },
+      {
+        title: "Compliant Google Ads",
+        description: "Insurance advertising that follows Google's financial services policies. Targeted campaigns for specific insurance products and local markets."
+      },
+      {
+        title: "Lead Generation Campaigns",
+        description: "Multi-channel lead generation combining SEO, paid ads, and social media. Quality-focused targeting to attract serious buyers, not just price shoppers."
+      },
+      {
+        title: "Content Marketing",
+        description: "Educational content explaining insurance concepts, coverage options, and buying guides. Builds trust and improves search rankings."
+      },
+      {
+        title: "Review & Reputation Management",
+        description: "Build Google reviews that influence insurance buying decisions. Testimonials and social proof that establish credibility."
+      }
+    ],
+    benefits: [
+      "Generate consistent qualified policy leads",
+      "Build trust with educational content",
+      "Dominate local insurance searches",
+      "Stay compliant with industry regulations",
+      "Differentiate from competing agents",
+      "Reduce dependence on purchased leads"
+    ],
+    faqs: [
+      {
+        question: "How do you handle insurance advertising compliance?",
+        answer: "We stay current with insurance advertising regulations and Google's financial services policies. All ad copy, landing pages, and claims are reviewed for compliance. We work within carrier guidelines and state insurance department requirements."
+      },
+      {
+        question: "Can you generate leads for specific insurance types?",
+        answer: "Yes, we create targeted campaigns for specific products—auto, home, life, health, commercial, etc. Each product has different search patterns and audience targeting strategies."
+      },
+      {
+        question: "How much does an insurance agent website cost?",
+        answer: "Insurance agent websites typically range from $2,000 to $6,000 depending on features, carrier integrations, and quote functionality. We provide detailed quotes based on your specific needs."
+      },
+      {
+        question: "How do you generate quality leads, not just quote shoppers?",
+        answer: "We target keywords indicating serious buying intent, use qualifying questions in lead forms, and focus on building trust through content before pushing for quotes. This attracts people ready to buy, not just comparison shopping."
+      }
+    ],
+    ctaText: "Get Insurance Marketing Quote"
+  },
+  "luxury-brands": {
+    slug: "luxury-brands",
+    title: "Luxury Brands",
+    tagline: "Premium Digital Experiences for Luxury & High-End Brands",
+    description:
+      "Fraga Technology creates sophisticated digital experiences for luxury brands, premium products, and high-end services. We understand that luxury marketing requires a different approach—one that emphasizes exclusivity, craftsmanship storytelling, and aspirational positioning rather than discount-driven tactics. Our luxury brand services include bespoke website development, premium content creation, and targeted campaigns reaching affluent audiences.",
+    metaTitle: "Luxury Brand Website Development & Digital Marketing | Fraga Technology",
+    metaDescription:
+      "Luxury brand website development and premium digital marketing. Bespoke designs, affluent audience targeting, brand storytelling. Call +91 9235000195",
+    keywords: [
+      "luxury brand website development",
+      "luxury digital marketing",
+      "premium brand website design",
+      "high-end brand marketing",
+      "luxury ecommerce development",
+      "affluent audience marketing",
+      "luxury brand storytelling",
+      "premium product marketing"
+    ],
+    heroText:
+      "We create digital experiences worthy of luxury brands—where every pixel reflects the craftsmanship and exclusivity your brand represents. From bespoke website development to targeted campaigns reaching affluent audiences, we help premium brands maintain their prestige while driving qualified engagement.",
+    challenges: [
+      "Maintaining brand prestige in digital environments",
+      "Reaching affluent audiences without mass-market tactics",
+      "Balancing exclusivity with accessibility",
+      "Creating digital experiences matching physical brand quality",
+      "Storytelling that conveys heritage and craftsmanship",
+      "Competing for attention without discounting brand value"
+    ],
+    services: [
+      {
+        title: "Bespoke Website Development",
+        description: "Custom-crafted websites with meticulous attention to typography, spacing, imagery, and interaction design. Every detail reflects your brand's premium positioning."
+      },
+      {
+        title: "Luxury E-commerce",
+        description: "High-end online shopping experiences with premium product presentation, white-glove checkout flows, and VIP customer account features."
+      },
+      {
+        title: "Brand Storytelling",
+        description: "Compelling narratives around heritage, craftsmanship, and brand values. Content that evokes emotion and aspiration rather than just features."
+      },
+      {
+        title: "Affluent Audience Targeting",
+        description: "Digital advertising reaching high-net-worth individuals through premium placements, contextual targeting, and affluent audience segments."
+      },
+      {
+        title: "Visual Content Creation",
+        description: "Art direction and visual content strategy maintaining brand consistency across digital touchpoints. Photography guidelines and asset management."
+      },
+      {
+        title: "Exclusive Launch Campaigns",
+        description: "Product launch campaigns creating anticipation and exclusivity. Limited availability messaging and VIP early access programs."
+      }
+    ],
+    benefits: [
+      "Digital presence matching your physical brand experience",
+      "Reach affluent audiences with precision targeting",
+      "Tell your brand story with sophistication",
+      "Maintain exclusivity while expanding reach",
+      "Create aspirational digital experiences",
+      "Drive qualified engagement, not mass traffic"
+    ],
+    faqs: [
+      {
+        question: "How do you maintain luxury positioning online?",
+        answer: "We focus on quality over quantity—exceptional design, premium imagery, sophisticated copywriting, and exclusive offers rather than discounts. Every touchpoint reinforces brand prestige."
+      },
+      {
+        question: "How do you reach affluent audiences digitally?",
+        answer: "We use premium ad placements, affluent audience data segments, contextual targeting on luxury publications, and platforms where high-net-worth individuals spend time. No mass-market tactics."
+      },
+      {
+        question: "What makes luxury website development different?",
+        answer: "Luxury websites require meticulous attention to every detail—typography, white space, image quality, loading transitions, micro-interactions. We obsess over details that create an elevated experience."
+      },
+      {
+        question: "How much does a luxury brand website cost?",
+        answer: "Luxury brand websites typically start at $10,000 and can exceed $50,000 for complex e-commerce with custom features. The investment reflects the attention to detail and custom craftsmanship required."
+      }
+    ],
+    ctaText: "Discuss Luxury Brand Strategy"
   }
 }
 
