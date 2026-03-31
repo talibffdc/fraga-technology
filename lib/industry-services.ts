@@ -682,6 +682,533 @@ export const industryServices: Record<string, IndustryService> = {
     ],
     ctaText: "Build Your SaaS Platform",
   },
+  "web-development-marketing-agencies": {
+    slug: "web-development-marketing-agencies",
+    title: "Web Development for Marketing Agencies",
+    industry: "Marketing Agencies",
+    service: "Web Development",
+    tagline: "White-Label Website Development for Agencies | Agency Partner Solutions",
+    description:
+      "Fraga Technology provides white-label website development services for marketing agencies looking to expand their service offerings. We build custom websites under your brand while you focus on client relationships and strategy.",
+    metaTitle: "White-Label Web Development for Agencies | Fraga Technology",
+    metaDescription:
+      "White-label website development for marketing agencies. Expand your services without hiring developers. Reliable agency partner.",
+    keywords: [
+      "white label web development",
+      "agency web development partner",
+      "white label website development",
+      "agency outsourcing partner",
+      "web development for agencies",
+      "scalable agency solutions",
+      "agency website development",
+    ],
+    heroText:
+      "Marketing agencies partner with Fraga Technology to deliver exceptional web development without maintaining in-house technical teams. We handle design, development, and deployment while you maintain client relationships and brand presence.",
+    painPoints: [
+      {
+        title: "Client Requests Exceeding Capacity",
+        description:
+          "When clients need custom websites, you're forced to decline or hire contractors, straining resources.",
+      },
+      {
+        title: "Hiring & Training Overhead",
+        description:
+          "Maintaining full-time developers is expensive and complex. Skill gaps lead to quality issues.",
+      },
+      {
+        title: "Project Backlogs",
+        description:
+          "Limited development capacity means delayed projects, unhappy clients, and lost opportunities.",
+      },
+      {
+        title: "Quality Control",
+        description:
+          "Freelancers lack consistency. You need reliable partners who match your quality standards.",
+      },
+    ],
+    solutions: [
+      {
+        title: "White-Label Development",
+        description:
+          "Custom websites built under your brand name. Seamless handoff with documentation and training.",
+      },
+      {
+        title: "Scalable Capacity",
+        description:
+          "Expand or reduce development workload based on your client needs without permanent hires.",
+      },
+      {
+        title: "Quality Assurance",
+        description:
+          "Every project undergoes rigorous testing and QA before delivery, maintaining your reputation.",
+      },
+      {
+        title: "Fast Turnaround",
+        description:
+          "Standard websites delivered in 2-3 weeks, complex projects in 4-6 weeks.",
+      },
+      {
+        title: "Branded Deliverables",
+        description:
+          "Estimates, proposals, and documentation all branded with your agency name.",
+      },
+      {
+        title: "Ongoing Support",
+        description:
+          "Post-launch support and maintenance options available for long-term client success.",
+      },
+    ],
+    features: [
+      {
+        title: "Custom Design",
+        description: "Tailored designs matching your brand and client requirements.",
+      },
+      {
+        title: "Responsive Development",
+        description: "Mobile-first design ensuring perfect functionality across all devices.",
+      },
+      {
+        title: "SEO-Ready",
+        description: "Built with SEO best practices for improved search visibility.",
+      },
+      {
+        title: "CMS Integration",
+        description: "Content management systems allowing clients to update their sites independently.",
+      },
+      {
+        title: "Performance Optimization",
+        description: "Fast-loading sites with optimized images and efficient code.",
+      },
+      {
+        title: "Security",
+        description: "SSL certificates, secure hosting, and regular security updates included.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How does white-label partnership work?",
+        answer:
+          "You maintain the client relationship. We handle all technical work behind the scenes. Deliverables are branded with your agency name. Your clients never know we exist.",
+      },
+      {
+        question: "What project types do you handle?",
+        answer:
+          "Corporate websites, portfolios, small business sites, landing pages, and e-commerce stores. We have expertise across all common web project types.",
+      },
+      {
+        question: "What's your typical turnaround time?",
+        answer:
+          "Standard websites: 2-3 weeks. Complex projects: 4-6 weeks. Expedited timelines available at premium rates.",
+      },
+      {
+        question: "Do you sign NDAs?",
+        answer:
+          "Yes, we sign comprehensive NDAs protecting your client relationships and confidential information.",
+      },
+      {
+        question: "Can you handle rush projects?",
+        answer:
+          "Yes, we can accelerate timelines for rush projects at premium rates. Contact us to discuss your timeline.",
+      },
+    ],
+    ctaText: "Become Our Agency Partner",
+  },
+  "web-development-construction": {
+    slug: "web-development-construction",
+    title: "Web Development for Construction Companies",
+    industry: "Construction",
+    service: "Web Development",
+    tagline: "Professional Contractor Websites | Project Portfolio Sites | Lead Generation",
+    description:
+      "Fraga Technology builds professional websites for construction companies, contractors, and builders. Our construction websites showcase project work, generate qualified leads, and establish authority in competitive markets.",
+    metaTitle: "Construction Company Website Development | Fraga Technology",
+    metaDescription:
+      "Professional contractor website development. Project portfolios, lead generation, local SEO for construction companies.",
+    keywords: [
+      "construction company website",
+      "contractor website development",
+      "construction website design",
+      "home builder website",
+      "contractor portfolio website",
+      "construction lead generation",
+      "contractor SEO",
+      "construction business website",
+    ],
+    heroText:
+      "Construction companies choose Fraga Technology to build professional websites that showcase their work and generate qualified project leads. Our construction websites help contractors win more bids and establish credibility with potential clients.",
+    painPoints: [
+      {
+        title: "No Online Presence",
+        description:
+          "Many contractors rely solely on referrals. An outdated or non-existent website hurts credibility.",
+      },
+      {
+        title: "Lost Leads",
+        description:
+          "Potential clients find competitors online while you're invisible. You're losing projects you don't know about.",
+      },
+      {
+        title: "Poor Project Showcase",
+        description:
+          "Your best work isn't being shown. Project portfolios are essential for winning competitive bids.",
+      },
+      {
+        title: "Competitive Disadvantage",
+        description:
+          "Competitors with better websites appear more professional and trustworthy to potential clients.",
+      },
+    ],
+    solutions: [
+      {
+        title: "Professional Project Gallery",
+        description:
+          "Beautiful before/after galleries, project case studies, and video walkthroughs showcasing your best work.",
+      },
+      {
+        title: "Lead Capture System",
+        description:
+          "Optimized contact forms and quote request systems capturing interested prospects automatically.",
+      },
+      {
+        title: "Service Pages",
+        description:
+          "Detailed service pages explaining your expertise, process, and capabilities to potential clients.",
+      },
+      {
+        title: "Testimonials & Reviews",
+        description:
+          "Social proof from satisfied clients building trust and credibility with prospects.",
+      },
+      {
+        title: "Mobile Optimization",
+        description:
+          "Mobile-friendly design for contractors and clients reviewing your work from job sites.",
+      },
+      {
+        title: "SEO Foundation",
+        description:
+          "Built with local SEO best practices to help you rank for contractor searches in your area.",
+      },
+    ],
+    features: [
+      {
+        title: "Project Portfolio Management",
+        description: "Easy-to-update project galleries with photos, videos, and project details.",
+      },
+      {
+        title: "Service Pages",
+        description: "Dedicated pages for each service (roofing, plumbing, electrical, etc.) targeting specific searches.",
+      },
+      {
+        title: "Before/After Galleries",
+        description: "Stunning before/after sliders showcasing transformation and quality of work.",
+      },
+      {
+        title: "Testimonial Section",
+        description: "Client testimonials and Google reviews integrated into your site building trust.",
+      },
+      {
+        title: "Contact Forms",
+        description: "Multiple contact options (phone, email, quote request) capturing leads effectively.",
+      },
+      {
+        title: "Google Business Integration",
+        description: "Google Business Profile integration with map and review display.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How should we showcase our projects?",
+        answer:
+          "Professional photo galleries with before/after sliders, detailed project descriptions, client testimonials, and results achieved. This builds trust and demonstrates quality.",
+      },
+      {
+        question: "Can you help with SEO for contractors?",
+        answer:
+          "Yes, our websites are built with local SEO foundation. Your site will be optimized for 'contractor near me' and service-specific searches in your area.",
+      },
+      {
+        question: "How much does a contractor website cost?",
+        answer:
+          "Construction websites range from $2,500 for basic sites to $7,000+ for advanced portfolio sites. Investment depends on complexity and features needed.",
+      },
+      {
+        question: "Can you help us get Google reviews?",
+        answer:
+          "We implement automated review request systems that reach satisfied clients at the right time, helping you build a strong online reputation.",
+      },
+      {
+        question: "Is the website easy to update?",
+        answer:
+          "Yes, your website includes a simple admin panel where you can add new projects, update services, and manage content without technical knowledge.",
+      },
+    ],
+    ctaText: "Get Your Contractor Website",
+  },
+  "web-development-insurance": {
+    slug: "web-development-insurance",
+    title: "Web Development for Insurance Agents & Agencies",
+    industry: "Insurance",
+    service: "Web Development",
+    tagline: "Professional Insurance Agent Websites | Lead Generation Platform",
+    description:
+      "Fraga Technology builds professional websites for insurance agents and agencies. Our insurance websites help agents generate qualified leads, build client trust, and establish authority in competitive insurance markets.",
+    metaTitle: "Insurance Agent Website Development | Fraga Technology",
+    metaDescription:
+      "Professional insurance agent website development. Lead generation, compliance-ready design, agent portfolios.",
+    keywords: [
+      "insurance agent website",
+      "insurance agency website development",
+      "insurance broker website",
+      "insurance lead generation website",
+      "insurance website design",
+      "agent portfolio website",
+      "insurance professional website",
+      "agency website development",
+    ],
+    heroText:
+      "Insurance agents and agencies trust Fraga Technology to build professional websites that generate qualified leads while maintaining industry compliance. Our insurance websites help agents stand out and win more clients.",
+    painPoints: [
+      {
+        title: "Low Online Visibility",
+        description:
+          "Many agents are invisible online while competitors dominate search results and attract clients.",
+      },
+      {
+        title: "Trust Issues",
+        description:
+          "Potential clients are skeptical of insurance sales. Your website must build credibility and trust.",
+      },
+      {
+        title: "Lead Generation",
+        description:
+          "You need a steady stream of qualified leads, not just quote shoppers. Your website should filter and qualify.",
+      },
+      {
+        title: "Compliance Concerns",
+        description:
+          "Insurance advertising is heavily regulated. Your website must comply with all rules and carrier requirements.",
+      },
+    ],
+    solutions: [
+      {
+        title: "Agent Portfolio",
+        description:
+          "Professional agent profiles, credentials, testimonials, and specializations helping clients choose to work with you.",
+      },
+      {
+        title: "Quote Request System",
+        description:
+          "Smart quote forms that qualify leads and route them to appropriate agents or products.",
+      },
+      {
+        title: "Educational Content",
+        description:
+          "Guides and articles explaining insurance concepts, helping clients understand coverage and make informed decisions.",
+      },
+      {
+        title: "Compliance-Ready Design",
+        description:
+          "Websites built with insurance advertising compliance in mind, following Google and carrier guidelines.",
+      },
+      {
+        title: "Product Pages",
+        description:
+          "Dedicated pages for each insurance product (auto, home, life, health, commercial) with clear benefits.",
+      },
+      {
+        title: "Contact Optimization",
+        description:
+          "Multiple contact methods optimized for lead capture without being pushy or non-compliant.",
+      },
+    ],
+    features: [
+      {
+        title: "Agent Profiles",
+        description: "Detailed agent bios, photos, credentials, specializations, and testimonials.",
+      },
+      {
+        title: "Product Guides",
+        description: "Educational content explaining coverage options and helping clients make decisions.",
+      },
+      {
+        title: "Quote Request Forms",
+        description: "Intelligent forms that gather necessary information and qualify leads effectively.",
+      },
+      {
+        title: "Customer Testimonials",
+        description: "Social proof from satisfied clients building trust and credibility.",
+      },
+      {
+        title: "Compliance Certificates",
+        description: "Display of licenses, certifications, and compliance badges building authority.",
+      },
+      {
+        title: "Blog/News Section",
+        description: "Update clients on industry news, policy changes, and insurance tips regularly.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How do you handle insurance advertising compliance?",
+        answer:
+          "Our websites are designed with insurance regulations in mind. We follow Google financial services policies, state insurance department rules, and carrier brand guidelines throughout.",
+      },
+      {
+        question: "Can we target specific insurance products?",
+        answer:
+          "Yes, each insurance product (auto, home, life, health, commercial) gets dedicated pages with product-specific content and calls-to-action.",
+      },
+      {
+        question: "How do you build trust on an insurance website?",
+        answer:
+          "Through agent profiles, client testimonials, educational content, transparency, clear contact information, and professional design that conveys credibility.",
+      },
+      {
+        question: "What's included in quote request handling?",
+        answer:
+          "Quote forms can be customized per product, automatically route to specific agents, send confirmation emails, and integrate with your CRM for lead tracking.",
+      },
+      {
+        question: "How much does an insurance agent website cost?",
+        answer:
+          "Insurance websites range from $2,000 for single-agent sites to $6,000+ for multi-agent agency websites with advanced features.",
+      },
+    ],
+    ctaText: "Build Your Insurance Website",
+  },
+  "ecommerce-luxury-brands": {
+    slug: "ecommerce-luxury-brands",
+    title: "E-Commerce for Luxury Brands",
+    industry: "Luxury Brands",
+    service: "E-Commerce Development",
+    tagline: "Bespoke Luxury E-Commerce Platforms | Premium Online Shopping Experiences",
+    description:
+      "Fraga Technology builds sophisticated e-commerce platforms for luxury brands and premium products. Our luxury e-commerce sites deliver white-glove experiences that reflect brand prestige while driving sales.",
+    metaTitle: "Luxury E-Commerce Development | Premium Online Shopping | Fraga Technology",
+    metaDescription:
+      "Bespoke luxury e-commerce platforms for premium brands. VIP customer experiences, exclusive product launches, sophisticated design.",
+    keywords: [
+      "luxury ecommerce development",
+      "luxury brand ecommerce",
+      "premium ecommerce platform",
+      "high-end online store",
+      "luxury product ecommerce",
+      "bespoke ecommerce",
+      "exclusive product platform",
+      "luxury shopping experience",
+    ],
+    heroText:
+      "Luxury brands trust Fraga Technology to build e-commerce platforms that match their prestigious positioning. From exclusive product launches to VIP customer experiences, we create shopping platforms worthy of luxury brands.",
+    painPoints: [
+      {
+        title: "Maintaining Brand Prestige Online",
+        description:
+          "Generic e-commerce platforms don't reflect luxury positioning. Your online experience must equal physical store quality.",
+      },
+      {
+        title: "Reaching Affluent Customers",
+        description:
+          "Mass-market e-commerce tactics don't work for luxury. You need sophisticated, targeted approaches.",
+      },
+      {
+        title: "Exclusivity vs. Accessibility",
+        description:
+          "Balancing exclusive brand perception with sufficient accessibility to reach your target market.",
+      },
+      {
+        title: "Premium Product Showcase",
+        description:
+          "Your products deserve exceptional presentation with high-quality imagery, detailed descriptions, and storytelling.",
+      },
+    ],
+    solutions: [
+      {
+        title: "Bespoke Platform Design",
+        description:
+          "Custom-crafted e-commerce platform with meticulous attention to every detail reflecting brand prestige.",
+      },
+      {
+        title: "White-Glove Checkout",
+        description:
+          "Premium checkout experience with concierge support, gift wrapping options, and exclusive delivery methods.",
+      },
+      {
+        title: "VIP Customer Accounts",
+        description:
+          "Exclusive access for premium customers with early product launches, special pricing, and personalized service.",
+      },
+      {
+        title: "High-Quality Product Presentation",
+        description:
+          "360-degree product views, zoom capabilities, styling guides, and detailed craftsmanship narratives.",
+      },
+      {
+        title: "Exclusive Launch Campaigns",
+        description:
+          "Limited availability messaging, VIP early access, and waitlist systems creating exclusivity and urgency.",
+      },
+      {
+        title: "Personalization Engine",
+        description:
+          "Curated recommendations and personalized product suggestions based on customer preferences and purchase history.",
+      },
+    ],
+    features: [
+      {
+        title: "Premium Product Galleries",
+        description: "High-resolution images, 360-degree views, zoom capabilities, and video content.",
+      },
+      {
+        title: "VIP Account Tiers",
+        description: "Multi-tier VIP programs with exclusive access, pricing, and services.",
+      },
+      {
+        title: "Luxury Packaging Options",
+        description: "Premium gift wrapping, personalization, and exclusive packaging choices.",
+      },
+      {
+        title: "Exclusive Product Launches",
+        description: "Limited availability products, pre-order systems, and VIP early access.",
+      },
+      {
+        title: "Concierge Support",
+        description: "Premium customer service options including personal shopping assistance.",
+      },
+      {
+        title: "Sophisticated Analytics",
+        description: "Track luxury customer behavior, preferences, and lifetime value.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How do you maintain brand prestige in e-commerce?",
+        answer:
+          "Every element—design, copy, imagery, checkout experience—reflects luxury positioning. We avoid discounting, mass-market tactics, and anything that dilutes brand prestige.",
+      },
+      {
+        question: "How do you reach affluent customers online?",
+        answer:
+          "Through premium ad placements, luxury publication partnerships, affluent audience targeting, and exclusive marketing channels where high-net-worth individuals spend time.",
+      },
+      {
+        question: "Can you handle exclusive product launches?",
+        answer:
+          "Yes, we build limited availability systems, VIP early access programs, waitlist functionality, and exclusive launch campaigns that create anticipation.",
+      },
+      {
+        question: "What about luxury product presentation?",
+        answer:
+          "We obsess over details—high-resolution photography, 360-degree views, zoom capabilities, detailed craftsmanship descriptions, and brand storytelling.",
+      },
+      {
+        question: "How much does a luxury e-commerce platform cost?",
+        answer:
+          "Luxury platforms start at $15,000+ depending on complexity, integrations, and custom features. Investment reflects the bespoke nature of luxury development.",
+      },
+    ],
+    ctaText: "Build Your Luxury Platform",
+  },
 }
 
 export function getIndustryServiceBySlug(slug: string): IndustryService | undefined {
