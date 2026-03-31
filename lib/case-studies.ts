@@ -198,6 +198,138 @@ export const caseStudies: Record<string, CaseStudy> = {
       cover: "/case-studies/law-firm-seo.jpg",
     },
   },
+  "fintech-mobile-app": {
+    slug: "fintech-mobile-app",
+    title: "FinTech App - Payment Processing at Scale",
+    tagline: "Built a Secure Digital Payment Solution",
+    description:
+      "A startup wanted to disrupt the payment processing space with a user-friendly app. We developed a full-stack FinTech mobile application with banking-grade security, supporting 50,000+ transactions monthly with 99.95% uptime.",
+    industry: "Financial Technology",
+    service: "Mobile App Development",
+    technologies: ["React Native", "Node.js", "PostgreSQL", "AWS", "Razorpay API", "AES Encryption"],
+    clientLogoAlt: "FinTech startup logo",
+    coverImageAlt: "Mobile payment app interface",
+    challenge:
+      "Building a payment app required strict regulatory compliance, advanced security measures, seamless UX, and ability to scale quickly. They needed to handle authentication, encryption, fraud detection, and transaction reconciliation.",
+    solution:
+      "We developed a React Native cross-platform app with end-to-end encryption, two-factor authentication, real-time transaction updates, comprehensive fraud detection system, automated reconciliation, and integrations with major payment gateways.",
+    results: [
+      { title: "Daily Transactions", value: "2,000+", description: "Growing 20% month-over-month" },
+      { title: "Uptime", value: "99.95%", description: "Enterprise-grade reliability" },
+      { title: "Transaction Success Rate", value: "99.8%", description: "Industry-leading performance" },
+      { title: "User Downloads", value: "100K+", description: "With 4.7-star rating" },
+    ],
+    testimonial: {
+      text: "Fraga Technology understood the complexity of FinTech development. Their expertise in security, compliance, and scalability was crucial to our success. We're now processing millions in transactions safely and reliably.",
+      author: "Vikram Singh",
+      position: "CEO",
+      company: "FinTech Startup",
+    },
+    timeline: "8 months for MVP and full launch",
+    teamSize: "6 developers + 1 QA specialist",
+    images: {
+      cover: "/case-studies/fintech-app.jpg",
+    },
+  },
+  "ecommerce-b2b-marketplace": {
+    slug: "ecommerce-b2b-marketplace",
+    title: "B2B E-Commerce Marketplace - ₹10Cr+ GMV",
+    tagline: "Built a Thriving Multi-Vendor B2B Platform",
+    description:
+      "An e-commerce entrepreneur wanted to create a B2B marketplace connecting manufacturers with retailers. We built a sophisticated platform with vendor management, bulk ordering, automated pricing, and logistics integration handling ₹10+ crore in annual GMV.",
+    industry: "B2B E-Commerce",
+    service: "Web Development",
+    technologies: ["Next.js", "Node.js", "MongoDB", "Stripe", "AWS", "Elasticsearch"],
+    clientLogoAlt: "B2B marketplace logo",
+    coverImageAlt: "Marketplace vendor dashboard",
+    challenge:
+      "B2B e-commerce is complex - requires vendor onboarding, credit management, bulk order handling, automated invoicing, and logistics coordination. They needed a scalable platform supporting thousands of vendors and retailers.",
+    solution:
+      "We built a multi-vendor platform with: comprehensive vendor management system, dynamic pricing engine, bulk ordering capabilities, credit-based payment system, automated invoice generation, integrated logistics tracking, analytics dashboards, and API for external integrations.",
+    results: [
+      { title: "Gross Merchandise Value", value: "₹10Cr+", description: "Annual transaction volume" },
+      { title: "Active Vendors", value: "500+", description: "Verified manufacturers" },
+      { title: "Repeat Buyers", value: "2,000+", description: "Regular retailers" },
+      { title: "Order Fulfillment", value: "98%", description: "On-time delivery rate" },
+    ],
+    testimonial: {
+      text: "The marketplace platform exceeded all our expectations. It's intuitive for vendors, powerful for retailers, and robust enough to handle our scale. Fraga's understanding of B2B dynamics was invaluable.",
+      author: "Neha Gupta",
+      position: "Founder",
+      company: "B2B Marketplace",
+    },
+    timeline: "9 months",
+    teamSize: "8 developers + 2 designers",
+    images: {
+      cover: "/case-studies/b2b-marketplace.jpg",
+    },
+  },
+  "mobile-fitness-app": {
+    slug: "mobile-fitness-app",
+    title: "Fitness App - 50K Active Users in 6 Months",
+    tagline: "Developed a Comprehensive Workout & Coaching Platform",
+    description:
+      "A fitness entrepreneur launched a mobile app offering personalized workout plans, video coaching, and community features. With our help, the app achieved 50,000+ active users, 100,000+ downloads, and became a profitable business within 6 months.",
+    industry: "Health & Wellness",
+    service: "Mobile App Development",
+    technologies: ["Flutter", "Firebase", "Node.js", "Video Streaming", "Stripe", "Push Notifications"],
+    clientLogoAlt: "Fitness app logo",
+    coverImageAlt: "Fitness app workout interface",
+    challenge:
+      "Creating an engaging fitness app required: smooth video streaming, personalized recommendation engine, social community features, payment integration, and retention strategies. They needed to stand out in a competitive market.",
+    solution:
+      "We developed a cross-platform app with: AI-powered workout recommendations, HD video streaming for coaches, social features (challenges, leaderboards), subscription management, in-app coaching chat, progress tracking, and push notification system for engagement.",
+    results: [
+      { title: "App Downloads", value: "100K+", description: "In first 6 months" },
+      { title: "Active Users", value: "50K+", description: "Monthly active users" },
+      { title: "Subscription Retention", value: "68%", description: "Monthly retention rate" },
+      { title: "User Rating", value: "4.8/5", description: "App store rating" },
+    ],
+    testimonial: {
+      text: "Fraga Technology built an app that users genuinely love. The quality, user experience, and performance are exceptional. The team's expertise in mobile app development and user engagement is evident in every feature.",
+      author: "Sarah Patel",
+      position: "Founder",
+      company: "Fitness Platform",
+    },
+    timeline: "5 months for full launch",
+    teamSize: "4 developers + 1 designer + 1 QA",
+    images: {
+      cover: "/case-studies/fitness-app.jpg",
+    },
+  },
+  "enterprise-crm-system": {
+    slug: "enterprise-crm-system",
+    title: "Enterprise CRM System - 200+ User Adoption",
+    tagline: "Deployed Custom CRM for Manufacturing Company",
+    description:
+      "A manufacturing company with 200+ employees needed a custom CRM system to replace fragmented tools. We built an enterprise-grade CRM with advanced sales pipeline management, customer analytics, and integrations, achieving 95% user adoption within 3 months.",
+    industry: "Enterprise Software",
+    service: "Web Development",
+    technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Salesforce API", "Power BI"],
+    clientLogoAlt: "Manufacturing company logo",
+    coverImageAlt: "CRM dashboard overview",
+    challenge:
+      "The company used Excel, separate email systems, and multiple tools for customer management. They needed a unified CRM that could handle complex sales workflows, provide executive insights, and ensure data consistency across all 200+ employees.",
+    solution:
+      "We developed a custom CRM with: comprehensive contact and lead management, sales pipeline tracking, activity logging, forecast reporting, advanced analytics and insights, role-based access control, mobile app for field sales, and integrations with existing tools.",
+    results: [
+      { title: "User Adoption", value: "95%", description: "Within 3 months of launch" },
+      { title: "Sales Cycle", value: "-30%", description: "Reduction in sales cycle duration" },
+      { title: "Data Accuracy", value: "+99%", description: "Single source of truth" },
+      { title: "Productivity Gain", value: "+40%", description: "Time saved on administrative tasks" },
+    ],
+    testimonial: {
+      text: "The custom CRM system has been transformative for our sales organization. It's tailored perfectly to our processes, and our team has adopted it remarkably well. The support and training from Fraga Technology was excellent.",
+      author: "Ravi Sharma",
+      position: "Director of Sales",
+      company: "Manufacturing Company",
+    },
+    timeline: "6 months for full implementation",
+    teamSize: "5 developers + 1 business analyst",
+    images: {
+      cover: "/case-studies/enterprise-crm.jpg",
+    },
+  },
 }
 
 export function getCaseStudyBySlug(slug: string): CaseStudy | undefined {
