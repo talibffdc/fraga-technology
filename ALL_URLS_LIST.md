@@ -88,7 +88,7 @@
 
 ---
 
-## 8. CASE STUDIES PAGES (6 URLs)
+## 8. CASE STUDIES PAGES (10 URLs)
 
 **Case Studies Index:**
 1. https://fraga-technology.com/case-studies
@@ -99,6 +99,10 @@
 4. https://fraga-technology.com/case-studies/real-estate-property-portal
 5. https://fraga-technology.com/case-studies/healthcare-clinic-portal
 6. https://fraga-technology.com/case-studies/law-firm-seo
+7. https://fraga-technology.com/case-studies/fintech-mobile-app
+8. https://fraga-technology.com/case-studies/ecommerce-b2b-marketplace
+9. https://fraga-technology.com/case-studies/mobile-fitness-app
+10. https://fraga-technology.com/case-studies/enterprise-crm-system
 
 ---
 
@@ -158,13 +162,13 @@
 | Industries | 5 |
 | Industry-Services | 7 |
 | Pricing | 3 |
-| Case Studies | 6 |
+| Case Studies | 10 |
 | Blog | Dynamic (Unlimited) |
 | Legal/Utility | 2 |
 | Admin | 2 |
 | API | 1 |
 | Sitemap/Robots | 2 |
-| **TOTAL STATIC** | **47** |
+| **TOTAL STATIC** | **51** |
 | **+ Dynamic Blog Posts** | **Unlimited** |
 
 ---
@@ -277,5 +281,5 @@ All URLs are fully responsive and optimized for:
 ---
 
 **Last Updated:** 2026
-**Total Unique URLs (Static):** 47
-**Total Unique URLs (Including Blog):** 47+ (scalable to 100+)
+**Total Unique URLs (Static):** 51
+**Total Unique URLs (Including Blog):** 51+ (scalable to 100+)
