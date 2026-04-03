@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import PricingPage from "@/components/pricing-page"
 import { siteConfig } from "@/lib/site-config"
-import { breadcrumbSchema, faqSchema } from "@/lib/schemas"
+import { breadcrumbSchema } from "@/lib/schemas"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -164,8 +164,6 @@ export default function EcommerceCostPage() {
     },
   ]
 
-  const faqSchemaData = faqSchema(faqData)
-
   return (
     <>
       <script
@@ -174,14 +172,6 @@ export default function EcommerceCostPage() {
           __html: JSON.stringify(breadcrumbSchema(breadcrumbs)),
         }}
       />
-      {faqSchemaData && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchemaData),
-          }}
-        />
-      )}
       <Header />
       <main className="min-h-screen pt-[72px]">
         <PricingPage
