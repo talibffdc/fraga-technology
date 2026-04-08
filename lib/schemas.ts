@@ -119,15 +119,20 @@ export function serviceSchema(service: {
 
 export function faqSchema(faqs: { question: string; answer: string }[]) {
   if (!faqs || faqs.length === 0) return null
+  
+  // Validate that we have questions and answers
+  const validFaqs = faqs.filter(faq => faq.question?.trim() && faq.answer?.trim())
+  if (validFaqs.length === 0) return null
+
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
+    mainEntity: validFaqs.map((faq) => ({
       "@type": "Question",
-      name: faq.question,
+      name: faq.question.trim(),
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: faq.answer.trim(),
       },
     })),
   }
