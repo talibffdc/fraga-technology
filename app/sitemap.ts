@@ -2,6 +2,7 @@ import { getAllPostsMeta } from "@/lib/blog"
 import { getAllServiceSlugs } from "@/lib/services"
 import { getAllIndustrySlugs } from "@/lib/industries"
 import { getAllLocationSlugs } from "@/lib/locations"
+import { getAllServiceCitySlugs } from "@/lib/service-cities"
 import { siteConfig } from "@/lib/site-config"
 import type { MetadataRoute } from "next"
 
@@ -73,5 +74,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...staticPages, ...servicePages, ...industryPages, ...locationPages, ...blogPages]
+  const serviceCitySlugs = getAllServiceCitySlugs()
+  const serviceCityPages: MetadataRoute.Sitemap = serviceCitySlugs.map((slug) => ({
+    url: `${baseUrl}/services/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }))
+
+  return [...staticPages, ...servicePages, ...serviceCityPages, ...industryPages, ...locationPages, ...blogPages]
 }
