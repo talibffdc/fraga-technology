@@ -1121,7 +1121,43 @@ export function getServiceBySlug(slug: string): ServiceData | null {
   return services[slug] || null
 }
 
-/** Navigation-friendly list of services */
+/** Main services only (for Services dropdown) - excludes city-specific service pages */
+export function getMainServiceNavItems(): { name: string; slug: string; href: string }[] {
+  const mainServiceSlugs = [
+    "website-development",
+    "mobile-app-development",
+    "seo-services",
+    "meta-ads",
+    "google-ads",
+    "graphics-design",
+    "social-media-marketing",
+  ]
+
+  return mainServiceSlugs
+    .map((slug) => services[slug])
+    .filter((service) => !!service)
+    .map((s) => ({
+      name: s.title,
+      slug: s.slug,
+      href: `/services/${s.slug}`,
+    }))
+}
+
+/** City-specific service pages (for Locations dropdown) */
+export function getCityServiceNavItems(): { name: string; slug: string; href: string }[] {
+  const cityServiceSlugs = ["seo-services-delhi"]
+
+  return cityServiceSlugs
+    .map((slug) => services[slug])
+    .filter((service) => !!service)
+    .map((s) => ({
+      name: s.title,
+      slug: s.slug,
+      href: `/services/${s.slug}`,
+    }))
+}
+
+/** Navigation-friendly list of services (all services) */
 export function getServiceNavItems(): { name: string; slug: string; href: string }[] {
   return Object.values(services).map((s) => ({
     name: s.title,

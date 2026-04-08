@@ -4,8 +4,9 @@ import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Phone, ChevronDown } from "lucide-react"
 import Link from "next/link"
-import { getServiceNavItems } from "@/lib/services"
+import { getMainServiceNavItems, getCityServiceNavItems } from "@/lib/services"
 import { getAllIndustries } from "@/lib/industries"
+import { getAllCities } from "@/lib/cities"
 
 const staticLinks = [
   { label: "Home", href: "/#home" },
@@ -20,18 +21,27 @@ const industryItems = getAllIndustries().map((ind) => ({
   href: `/industries/${ind.slug}`,
 }))
 
+const cityItems = getAllCities().map((city) => ({
+  name: city.name,
+  slug: city.slug,
+  href: `/cities/${city.slug}`,
+}))
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
   const [industriesOpen, setIndustriesOpen] = useState(false)
+  const [locationsOpen, setLocationsOpen] = useState(false)
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
   const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false)
+  const [mobileLocationsOpen, setMobileLocationsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const industriesRef = useRef<HTMLDivElement>(null)
+  const locationsRef = useRef<HTMLDivElement>(null)
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const serviceItems = getServiceNavItems()
+  const serviceItems = getMainServiceNavItems()
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
@@ -45,16 +55,18 @@ export default function Header() {
     }
   }, [])
 
-  function handleMouseEnter(dropdown: 'services' | 'industries') {
+  function handleMouseEnter(dropdown: 'services' | 'industries' | 'locations') {
     if (timeoutRef.current) clearTimeout(timeoutRef.current)
     if (dropdown === 'services') setServicesOpen(true)
     if (dropdown === 'industries') setIndustriesOpen(true)
+    if (dropdown === 'locations') setLocationsOpen(true)
   }
 
-  function handleMouseLeave(dropdown: 'services' | 'industries') {
+  function handleMouseLeave(dropdown: 'services' | 'industries' | 'locations') {
     timeoutRef.current = setTimeout(() => {
       if (dropdown === 'services') setServicesOpen(false)
       if (dropdown === 'industries') setIndustriesOpen(false)
+      if (dropdown === 'locations') setLocationsOpen(false)
     }, 200)
   }
 
@@ -235,6 +247,76 @@ export default function Header() {
             </AnimatePresence>
           </div>
 
+          {/* Locations dropdown */}
+          <div
+            ref={locationsRef}
+            className="relative"
+            onMouseEnter={() => handleMouseEnter('locations')}
+            onMouseLeave={() => handleMouseLeave('locations')}
+          >
+            <button
+              className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors duration-300 hover:text-foreground"
+              onClick={() => setLocationsOpen(!locationsOpen)}
+              aria-expanded={locationsOpen}
+              aria-haspopup="true"
+            >
+              Locations
+              <ChevronDown
+                className={`h-3.5 w-3.5 transition-transform duration-300 ${
+                  locationsOpen ? "rotate-180" : ""
+                }`}
+              />
+            </button>
+
+            <AnimatePresence>
+              {locationsOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 8, scale: 0.98 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: 8, scale: 0.98 }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
+                  className="absolute left-1/2 top-full mt-3 w-[280px] -translate-x-1/2 rounded-2xl border border-border bg-card/95 p-2 shadow-xl backdrop-blur-xl"
+                >
+                  <div className="absolute -top-2 left-1/2 h-4 w-4 -translate-x-1/2 rotate-45 rounded-tl border-l border-t border-border bg-card/95" />
+                  <div className="relative flex flex-col gap-0.5">
+                    {cityItems.map((item, index) => (
+                      <motion.div
+                        key={item.slug}
+                        initial={{ opacity: 0, x: -10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.2, delay: index * 0.03 }}
+                      >
+                        <Link
+                          href={item.href}
+                          onClick={() => setLocationsOpen(false)}
+                          className="group flex items-center gap-3 rounded-xl px-4 py-3 transition-all duration-200 hover:bg-primary/5"
+                        >
+                          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 transition-all duration-200 group-hover:from-primary/20 group-hover:to-accent/20">
+                            <span className="text-xs font-bold text-primary">
+                              {item.name.charAt(0)}
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium text-foreground transition-colors duration-200 group-hover:text-primary">
+                            {item.name}
+                          </span>
+                        </Link>
+                      </motion.div>
+                    ))}
+                  </div>
+                  <div className="mt-1 border-t border-border pt-2">
+                    <Link
+                      href="/cities"
+                      onClick={() => setLocationsOpen(false)}
+                      className="flex items-center justify-center rounded-xl px-4 py-2.5 text-xs font-semibold text-primary transition-colors hover:bg-primary/5"
+                    >
+                      View All Locations
+                    </Link>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
           {staticLinks.slice(2).map((link) => (
             <Link
               key={link.href}
@@ -366,6 +448,47 @@ export default function Header() {
                             onClick={() => {
                               setMobileOpen(false)
                               setMobileIndustriesOpen(false)
+                            }}
+                            className="rounded-lg px-4 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* Mobile Locations accordion */}
+              <div>
+                <button
+                  onClick={() => setMobileLocationsOpen(!mobileLocationsOpen)}
+                  className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-base font-medium text-foreground transition-colors hover:bg-secondary"
+                >
+                  Locations
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform duration-300 ${
+                      mobileLocationsOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+                <AnimatePresence>
+                  {mobileLocationsOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="overflow-hidden"
+                    >
+                      <div className="flex flex-col gap-0.5 pb-2 pl-4">
+                        {cityItems.map((item) => (
+                          <Link
+                            key={item.slug}
+                            href={item.href}
+                            onClick={() => {
+                              setMobileOpen(false)
+                              setMobileLocationsOpen(false)
                             }}
                             className="rounded-lg px-4 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
                           >
