@@ -743,6 +743,367 @@ Monthly performance reports tracking keyword rankings, organic traffic, conversi
     ],
     ctaText: "Get Social Media Strategy",
   },
+  "seo-services-delhi": {
+    slug: "seo-services-delhi",
+    title: "SEO Services Delhi",
+    tagline: "SEO Services in Delhi | Rank #1 on Google | Local SEO Delhi Experts",
+    description:
+      "Looking for the best SEO services in Delhi? Fraga Technology is a leading SEO company in Delhi specializing in local SEO services Delhi that help businesses rank higher on Google, increase organic traffic, and generate qualified leads. Our SEO company Delhi offers comprehensive on-page SEO, technical SEO audits, local SEO optimization, and strategic link building for Delhi, Noida, Gurgaon, and NCR businesses. We deliver sustainable rankings that drive real business growth.",
+    metaTitle: "SEO Services Delhi | Best SEO Company in Delhi | Local SEO Experts | Fraga Technology",
+    metaDescription:
+      "Top SEO company in Delhi offering affordable SEO services Delhi. Local SEO services, technical SEO, on-page optimization. Get results in 90 days. Call +91 9235000195",
+    keywords: [
+      "SEO services Delhi",
+      "SEO company in Delhi",
+      "best SEO agency Delhi",
+      "local SEO services Delhi",
+      "affordable SEO services Delhi",
+      "SEO company Delhi",
+      "SEO agency Delhi",
+      "digital marketing Delhi",
+      "Google ranking Delhi",
+      "SEO services Noida",
+      "SEO services Gurgaon",
+      "Delhi NCR SEO",
+    ],
+    heroText:
+      "Boost your Delhi business visibility on Google with our results-driven SEO services. As the best SEO company in Delhi, we've helped 200+ businesses achieve top Google rankings for competitive keywords. Our local SEO services Delhi are tailored for Delhi, Noida, Gurgaon, and NCR businesses looking to dominate their local search results and generate consistent qualified leads. Get a free SEO audit today.",
+    extendedContent: `
+## Why Delhi Businesses Need SEO Services
+
+Delhi's competitive market demands a strategic approach to digital visibility. With thousands of businesses competing for the same customers, ranking #1 on Google for local SEO keywords is critical.
+
+**The Reality**: 76% of local searches result in store visits or calls. When someone searches "SEO services Delhi" or "digital marketing near me," they're ready to buy. If your business isn't on page 1 of Google, you're losing customers to competitors.
+
+### The Challenge of SEO in Delhi's Competitive Market
+
+Delhi businesses face unique SEO challenges:
+
+- **High Competition**: Every business in Delhi wants to rank for the same keywords
+- **Local Search Complexity**: Google shows different results based on location, user intent, and search history
+- **Mobile-First Users**: Over 70% of searches in Delhi are on mobile devices
+- **Algorithm Updates**: Google constantly changes its ranking algorithm, making outdated SEO tactics ineffective
+
+### How Our SEO Services Delhi Solve These Challenges
+
+At Fraga Technology, we've spent 5+ years perfecting SEO for Delhi businesses. Our local SEO services Delhi are designed specifically for the Delhi market:
+
+## Our SEO Services Delhi Include
+
+### 1. Local SEO Optimization for Delhi & NCR
+- **Google My Business Optimization**: Complete profile optimization, photos, posts, and review management
+- **Local Citation Building**: Listing in 50+ local directories (JustDial, IndiaMART, BusinessDirectory, etc.)
+- **Location Pages**: Dedicated SEO landing pages for Delhi, Noida, Gurgaon, Rohini, Dwarka, and other key areas
+- **Local Link Building**: Backlinks from Delhi-based businesses and directories
+- **Review Management**: Increasing positive reviews on Google, JustDial, and industry-specific platforms
+
+### 2. Technical SEO Audit & Optimization
+- **Site Speed Optimization**: 90+ PageSpeed scores for faster rankings and user experience
+- **Mobile Optimization**: Responsive design and mobile-first indexing compliance
+- **Core Web Vitals**: Optimizing LCP, FID, and CLS for better rankings
+- **XML Sitemaps & Robots.txt**: Proper crawlability and indexation setup
+- **Schema Markup Implementation**: Local business schema, FAQPage, ProductSchema for rich snippets
+
+### 3. On-Page SEO Services
+- **Keyword Research**: Identifying high-intent, low-competition keywords for Delhi businesses
+- **Title Tag & Meta Description Optimization**: Crafting compelling snippets that increase CTR
+- **Heading Structure**: Proper H1, H2, H3 hierarchy for both SEO and user experience
+- **Content Optimization**: Strategic keyword placement, LSI keywords, semantic optimization
+- **Internal Linking**: Strategic linking to improve page authority and user journey
+
+### 4. Content Strategy for Delhi SEO
+- **Blog Content Creation**: SEO-optimized blog posts targeting local search terms
+- **Service Page Optimization**: Comprehensive service pages optimized for local searches
+- **Location Page Content**: Unique content for Delhi, Noida, Gurgaon, and other NCR areas
+- **FAQ Content**: Topic clusters with natural language optimization for voice search
+- **Content Calendar**: Monthly planning ensuring consistent, keyword-focused publishing
+
+### 5. Link Building & Off-Page SEO
+- **High-Quality Backlinks**: Building authority with relevant, high-authority websites
+- **Local Business Links**: Links from Delhi business associations, chambers of commerce, and local partners
+- **Press Release Distribution**: Digital PR for brand mentions and authoritative backlinks
+- **Competitor Backlink Analysis**: Identifying link opportunities your competitors are using
+- **Strategic Relationship Building**: Creating long-term link acquisition partnerships
+
+### 6. Ongoing SEO Maintenance
+- **Monthly Performance Reports**: Detailed analytics on rankings, traffic, leads, and conversions
+- **Keyword Tracking**: Monitoring 200+ keyword rankings month-over-month
+- **Competitor Monitoring**: Tracking competitor strategies and ranking changes
+- **Algorithm Update Adaptation**: Quick response to Google updates
+- **Proactive Optimization**: Continuous testing and refinement for better results
+
+## Our SEO Process for Delhi Businesses
+
+### Month 1: Analysis & Strategy
+- Comprehensive SEO audit of your current website
+- Competitor analysis (top 10 ranking websites)
+- Keyword research for Delhi, Noida, Gurgaon
+- SEO roadmap creation with clear milestones
+- Google My Business optimization (if not done)
+
+### Month 2-3: Technical Foundation & Initial Optimization
+- Technical SEO fixes (speed, mobile, crawlability)
+- On-page optimization for primary keywords
+- Schema markup implementation
+- Initial link building starts
+- Content optimization begins
+
+### Month 3-4: Content & Authority Building
+- New SEO content published (blog posts, service pages)
+- Location pages for Delhi, Noida, Gurgaon created
+- Link building accelerates
+- Social signals optimization
+- Review generation campaign
+
+### Month 5-6: Ranking Growth & Optimization
+- Keywords start ranking on page 1 (primary keywords)
+- Organic traffic begins increasing (50-100% typical)
+- Refinement of underperforming pages
+- Expansion of content calendar
+- Conversion optimization starts
+
+### Month 6-12: Domination & Lead Generation
+- Primary keywords rank top 3-5
+- Secondary keywords rank page 1
+- Organic traffic increases 200-500%
+- Consistent lead generation from organic search
+- Competitive positioning strengthened
+
+## Why Choose Fraga Technology for SEO Services Delhi?
+
+### Local Delhi Expertise
+We're based in Delhi and understand the local market deeply. We know what works for Delhi businesses—from retail shops in Connaught Place to software companies in Gurgaon to real estate agents in Noida.
+
+### Transparent Reporting
+Unlike other SEO companies in Delhi that hide their metrics, we provide clear, detailed monthly reports showing keyword rankings, traffic growth, lead generation, and ROI. You'll always know exactly what we're doing and what results we're achieving.
+
+### No Gray Hat Tactics
+We don't use private blog networks, keyword stuffing, or other black-hat SEO tactics that get websites penalized. Our approach focuses on sustainable, white-hat SEO that builds long-term authority.
+
+### Industry Experience
+We've delivered SEO for 200+ Delhi businesses across industries:
+- Real Estate Companies in Delhi and NCR
+- E-commerce Businesses
+- Healthcare Practices & Clinics
+- Law Firms & Legal Services
+- Software Companies & IT Services
+- Educational Institutions
+- Digital Marketing Agencies
+- Manufacturing & Industrial Companies
+
+### Proven Results
+Average results from our Delhi clients:
+- 250% organic traffic increase in 6 months
+- 40+ keywords ranking page 1
+- 3-5 qualified leads per month
+- 150% ROI within first year
+- Average ranking improvement: position 45 → position 8
+
+### Competitive Pricing
+SEO services Delhi shouldn't be expensive. Our local SEO services Delhi start from ₹15,000/month (affordable SEO services Delhi) for basic optimization, with premium packages for agencies and enterprise clients.
+
+## Case Study: Local Retail Business in Delhi
+
+**Business**: Luxury retail chain with 5 locations in Delhi
+**Challenge**: Low online visibility, losing customers to online competitors
+**Solution**: Local SEO services Delhi targeting location-specific keywords
+**Timeline**: 6 months
+**Results**:
+- 35 keywords ranking page 1
+- 400% organic traffic increase
+- 8-10 qualified leads per week
+- 200% increase in foot traffic to stores
+- 3x ROI in first year
+
+## FAQ - SEO Services Delhi
+
+These FAQs address common questions from Delhi businesses:
+
+### How Much Do SEO Services Cost in Delhi?
+
+SEO services Delhi pricing depends on competition and scope:
+- Basic Local SEO: ₹15,000-₹25,000/month for small businesses
+- Standard SEO Package: ₹30,000-₹50,000/month for competitive keywords
+- Premium/Enterprise: ₹60,000-₹150,000+/month for aggressive growth
+
+Our "No Results, No Payment" option: You pay only after we deliver first page rankings for 50% of target keywords. This ensures accountability and alignment with your goals.
+
+### How Long Does SEO Take in Delhi?
+
+**3 months**: Initial rankings for long-tail keywords
+**4-5 months**: Primary keywords ranking page 1 (top 10)
+**6-12 months**: Dominating top 3 positions for main keywords
+
+Results depend on:
+- Keyword competition level
+- Current website authority
+- Industry (competitive vs. niche)
+- Monthly SEO budget
+
+### Will My Business Show Up in Google Maps for Delhi?
+
+Yes! Our SEO services Delhi include:
+- Google My Business optimization
+- Local citation building
+- Review generation
+- Location-specific landing pages
+
+Your business will appear in Google Maps results for Delhi, Noida, Gurgaon, and NCR.
+
+### What Keywords Should I Target for SEO in Delhi?
+
+The best keywords depend on your business type. Examples:
+
+**For Retail**: "electronics store Delhi", "jewelry shop Gurgaon", "clothing brand Noida"
+**For Services**: "plumber in Delhi", "graphic designer Gurgaon", "accountant Noida"
+**For B2B**: "software development company Delhi", "digital marketing agency Noida"
+**For Healthcare**: "dentist in Delhi", "gynaecologist Gurgaon"
+
+We conduct comprehensive keyword research to identify high-intent, low-competition keywords your target customers are searching for.
+
+### How Do You Guarantee Rankings?
+
+We don't guarantee rankings (any company promising guaranteed rankings is lying). Here's what we guarantee:
+
+✓ Transparent monthly reporting on progress
+✓ Honest communication about realistic timelines
+✓ Best practices aligned with Google guidelines
+✓ Regular optimization and strategy refinement
+✓ Dedication to improving your Google visibility
+
+### Do You Offer a Free SEO Audit?
+
+Yes! We offer a free, no-obligation SEO audit for Delhi businesses. The audit includes:
+- Current ranking analysis
+- Technical SEO assessment
+- Competitor analysis
+- Traffic opportunities
+- Recommended SEO strategy
+- Estimated timeline & budget
+
+Contact us today for your free SEO audit.
+
+### Can You Help My Business Rank Locally in Delhi, Noida, and Gurgaon?
+
+Absolutely. Our local SEO services Delhi handle multi-location optimization:
+- Separate Google My Business profiles for each location
+- Location-specific landing pages
+- Local citation building in each city
+- Localized content strategy
+- Local link building
+
+Perfect for retail chains, service companies, and franchise businesses across Delhi NCR.
+
+### How Is Your SEO Different from Other SEO Companies in Delhi?
+
+Three key differentiators:
+
+**1. Transparency**: Monthly reports with clear metrics, not vague promises
+**2. Local Expertise**: Based in Delhi, working exclusively with Delhi businesses
+**3. Results Focus**: We're paid based on results—your success is our success
+
+### What Metrics Do You Track?
+
+Monthly reporting includes:
+- Keyword rankings (200+ tracked keywords)
+- Organic traffic growth
+- Leads generated from organic search
+- Conversion rates
+- Local search visibility
+- Competitor comparison
+
+### Should I Use SEO or Google Ads for My Delhi Business?
+
+**Use SEO when you want**:
+- Long-term sustainable traffic (6+ months)
+- Lower cost per acquisition
+- Organic visibility (higher trust)
+
+**Use Google Ads when you need**:
+- Immediate traffic and leads
+- Testing market demand
+- Seasonal or time-limited campaigns
+- Supplementing SEO while rankings build
+
+**Ideal**: Combine both! Use Google Ads for immediate ROI while building SEO for long-term domination.
+    `,
+    features: [
+      {
+        title: "Local SEO Delhi Optimization",
+        description:
+          "Google My Business optimization, local citations, review management, and location-specific landing pages for Delhi, Noida, Gurgaon, and NCR areas.",
+      },
+      {
+        title: "Technical SEO & Site Speed",
+        description:
+          "Core Web Vitals optimization, mobile responsiveness, site speed improvements, and crawlability fixes for better Google rankings.",
+      },
+      {
+        title: "Keyword Research & Strategy",
+        description:
+          "Identifying high-intent, low-competition keywords specific to Delhi market with comprehensive competitor analysis and opportunity mapping.",
+      },
+      {
+        title: "On-Page SEO Optimization",
+        description:
+          "Title tags, meta descriptions, heading structure, content optimization, and internal linking following Google's latest guidelines.",
+      },
+      {
+        title: "Content Creation & Strategy",
+        description:
+          "SEO-optimized blog posts, service page content, location pages for Delhi/Noida/Gurgaon, and comprehensive content calendar management.",
+      },
+      {
+        title: "Link Building & Authority",
+        description:
+          "High-quality backlinks from relevant websites, local business links, press releases, and strategic link acquisition partnerships.",
+      },
+    ],
+    outcomes: [
+      { title: "Top Google Rankings", description: "Rank #1-3 for target keywords in Delhi, Noida, and Gurgaon local searches." },
+      { title: "Increased Organic Traffic", description: "200-500% organic traffic growth resulting in consistent qualified leads." },
+      { title: "Lead Generation", description: "Quality leads from high-intent local searches ready to convert to customers." },
+      { title: "Business Growth", description: "Sustainable growth through organic visibility at a fraction of paid advertising costs." },
+    ],
+    faqs: [
+      {
+        question: "How much do SEO services cost in Delhi?",
+        answer:
+          "SEO services Delhi pricing ranges from ₹15,000-₹25,000/month for basic local SEO to ₹60,000-₹150,000+/month for competitive keywords and enterprise solutions. We offer flexible packages based on your budget and goals. Contact us for a customized quote with a free SEO audit.",
+      },
+      {
+        question: "How long does it take to rank on Google in Delhi?",
+        answer:
+          "Most websites see first page rankings within 3-4 months for long-tail keywords and 5-6 months for competitive keywords. This depends on keyword difficulty, current website authority, and competition level. We provide detailed timelines during the strategy phase.",
+      },
+      {
+        question: "Will my business appear in Google Maps for Delhi?",
+        answer:
+          "Yes! Our local SEO services Delhi include Google My Business optimization, local citations, and review management to ensure your business appears prominently in Google Maps results for Delhi, Noida, Gurgaon, and nearby areas.",
+      },
+      {
+        question: "Can you help my business rank for multiple cities like Delhi, Noida, and Gurgaon?",
+        answer:
+          "Absolutely. We specialize in multi-location SEO for Delhi NCR businesses. We create separate optimized pages for each location, manage multiple Google My Business profiles, and execute localized SEO strategies for each city.",
+      },
+      {
+        question: "What keywords should I target for SEO in Delhi?",
+        answer:
+          "Target keywords depend on your business type and customer search behavior. We conduct comprehensive keyword research identifying high-intent, low-competition keywords your Delhi customers are searching for. Examples: 'SEO services Delhi', 'affordable plumber Delhi', 'best digital marketing agency Gurgaon'.",
+      },
+      {
+        question: "How is your SEO company different from others in Delhi?",
+        answer:
+          "We combine local Delhi expertise with transparent reporting and guaranteed results focus. We provide monthly reports with clear metrics, work exclusively with white-hat SEO tactics, and our team is based in Delhi understanding the local market deeply. No black-hat tactics, no vague promises—just real results.",
+      },
+      {
+        question: "Do you offer guaranteed SEO rankings?",
+        answer:
+          "We don't guarantee rankings (anyone promising guaranteed rankings is violating Google guidelines). We guarantee transparent monthly reporting, best practice optimization, and dedicated strategy refinement. On average, we deliver first page rankings within 5-6 months for competitive keywords.",
+      },
+    ],
+    ctaText: "Get Free SEO Audit Delhi",
+  },
 }
 
 /** Get all services as an ordered array for navigation */
