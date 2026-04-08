@@ -119,9 +119,14 @@ export function serviceSchema(service: {
 
 export function faqSchema(faqs: { question: string; answer: string }[]) {
   if (!faqs || faqs.length === 0) return null
-  
-  // Validate that we have questions and answers
-  const validFaqs = faqs.filter(faq => faq.question?.trim() && faq.answer?.trim())
+
+  // Filter out any FAQs with empty questions or answers
+  const validFaqs = faqs.filter(faq => {
+    const question = faq.question?.trim()
+    const answer = faq.answer?.trim()
+    return question && answer
+  })
+
   if (validFaqs.length === 0) return null
 
   return {
