@@ -120,8 +120,23 @@ export function serviceSchema(service: {
 export function faqSchema(faqs: { question: string; answer: string }[]) {
   if (!faqs || faqs.length === 0) return null
   
-  // Validate that we have questions and answers
-  const validFaqs = faqs.filter(faq => faq.question?.trim() && faq.answer?.trim())
+  // Validate and deduplicate FAQs to prevent duplicate FAQPage schemas
+  const seenQuestions = new Set<string>()
+  const validFaqs = faqs
+    .filter(faq => {
+      const question = faq.question?.trim()
+      const answer = faq.answer?.trim()
+      
+      // Skip if empty
+      if (!question || !answer) return false
+      
+      // Skip if we've already seen this exact question (deduplication)
+      if (seenQuestions.has(question.toLowerCase())) return false
+      
+      seenQuestions.add(question.toLowerCase())
+      return true
+    })
+  
   if (validFaqs.length === 0) return null
 
   return {
