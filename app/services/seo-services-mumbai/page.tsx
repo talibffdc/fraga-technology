@@ -60,7 +60,7 @@ function generateJsonLd() {
     })),
     priceRange: "₹₹-₹₹₹₹",
     openingHours: "Mo-Sa 09:00-19:00",
-    sameAs: [siteConfig.links.linkedin, siteConfig.links.twitter, siteConfig.links.instagram],
+    sameAs: [siteConfig.social.linkedin, siteConfig.social.twitter, siteConfig.social.instagram],
   }
 
   const serviceSchema = {
