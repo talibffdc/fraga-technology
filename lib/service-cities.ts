@@ -293,9 +293,7 @@ Whether you're a real estate firm in Worli, an e-commerce brand in Powai, or a p
     ],
     ctaText: "Get Free Website Quote",
   },
-}
-
-"website-development-delhi": {
+  "website-development-delhi": {
     slug: "website-development-delhi",
     serviceSlug: "website-development",
     citySlug: "delhi",
