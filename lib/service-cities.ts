@@ -548,6 +548,249 @@ Whether you're a tech startup in Gurgaon Cyber Hub, an e-commerce brand in Noida
     ],
     ctaText: "Get Free Website Quote",
   },
+  "seo-services-mumbai": {
+    slug: "seo-services-mumbai",
+    serviceSlug: "seo-services",
+    citySlug: "mumbai",
+    serviceName: "SEO Services",
+    cityName: "Mumbai",
+    title: "SEO Services in Mumbai",
+    metaTitle: "SEO Services in Mumbai | Best SEO Company Mumbai | Fraga Technology",
+    metaDescription: "Looking for professional SEO services in Mumbai? Fraga Technology is a trusted SEO company in Mumbai offering local SEO, technical SEO & content optimization. Rank higher on Google and grow your business. Get a free SEO audit today!",
+    keywords: [
+      "SEO services Mumbai",
+      "SEO company Mumbai",
+      "best SEO agency Mumbai",
+      "local SEO Mumbai",
+      "affordable SEO Mumbai",
+      "SEO consultant Mumbai",
+      "SEO expert Mumbai",
+      "digital marketing Mumbai",
+      "Google ranking Mumbai",
+      "organic traffic Mumbai",
+      "SEO packages Mumbai",
+      "ecommerce SEO Mumbai",
+    ],
+    heroTitle: "Professional SEO Services in Mumbai",
+    heroDescription: "Rank higher on Google, drive organic traffic, and grow your business with our data-driven SEO services. We help Mumbai businesses dominate local search results and outrank competitors across Andheri, Bandra, Navi Mumbai, Thane, and the entire Mumbai Metropolitan Region.",
+    introduction: `Mumbai, India's financial capital and commercial powerhouse, is home to millions of businesses competing for visibility in one of the world's most dynamic digital markets. With over 22 million residents actively searching online for products and services, SEO (Search Engine Optimization) has become essential for Mumbai businesses wanting to capture high-intent customers and grow sustainably.
+
+Fraga Technology is a leading SEO company in Mumbai, trusted by startups, SMEs, and enterprises across Andheri, Bandra, Navi Mumbai, Lower Parel, Thane, and the entire Mumbai Metropolitan Region. We specialize in data-driven SEO strategies that deliver measurable results—higher rankings, increased organic traffic, and more qualified leads.
+
+Whether you're an e-commerce brand in Powai, a real estate company in Worli, a healthcare provider in Bandra, or a professional services firm in BKC, our Mumbai SEO team develops customized strategies tailored to your specific industry, competition, and business goals. We don't just optimize websites—we build sustainable organic growth engines that deliver ROI month after month.`,
+    whyBusinessesNeed: {
+      title: "Why Mumbai Businesses Need Professional SEO Services",
+      points: [
+        "Mumbai has over 22 million residents searching Google daily—without SEO, you're invisible to potential customers actively looking for your services",
+        "93% of online experiences begin with a search engine—if you're not ranking, your competitors are capturing your customers",
+        "Organic search drives 53% of all website traffic—SEO delivers the highest quality, lowest-cost leads for Mumbai businesses",
+        "Local searches like 'best [service] near me' have grown 500% in recent years—local SEO helps you capture these high-intent customers",
+        "SEO provides 24/7 visibility—unlike paid ads, your rankings continue working even when you stop investing",
+        "Mumbai's competitive market demands digital visibility—businesses without SEO lose market share to digitally-savvy competitors",
+        "SEO builds trust and credibility—users trust organic results more than paid advertisements",
+        "The ROI of SEO compounds over time—today's investment delivers traffic and leads for years to come",
+      ],
+    },
+    services: [
+      {
+        title: "Local SEO Mumbai",
+        description: "Dominate local search results and Google Maps. We optimize your Google Business Profile, build local citations, and implement location-specific strategies to help you rank for 'near me' searches across Mumbai, Andheri, Bandra, Navi Mumbai, and Thane.",
+      },
+      {
+        title: "Technical SEO",
+        description: "Comprehensive technical optimization including site speed improvements, Core Web Vitals optimization, mobile-first indexing, schema markup implementation, crawlability fixes, and site architecture improvements to build a strong SEO foundation.",
+      },
+      {
+        title: "On-Page SEO",
+        description: "Strategic keyword optimization, meta tag optimization, content structure improvements, internal linking strategies, and user experience enhancements to maximize your pages' ranking potential for target keywords.",
+      },
+      {
+        title: "Content Marketing & SEO",
+        description: "High-quality, SEO-optimized content creation including blog posts, service pages, landing pages, and pillar content that establishes topical authority and drives organic traffic for Mumbai businesses.",
+      },
+      {
+        title: "E-commerce SEO",
+        description: "Specialized SEO for Mumbai e-commerce businesses—product page optimization, category structure, technical e-commerce SEO, and conversion optimization to increase organic sales and revenue.",
+      },
+      {
+        title: "Link Building & Off-Page SEO",
+        description: "White-hat link building strategies including digital PR, guest posting, business citations, and authority building to improve your domain authority and competitive positioning in Mumbai's market.",
+      },
+    ],
+    websiteTypes: [
+      {
+        title: "On-Page SEO",
+        description: "Optimizing individual pages for target keywords, improving meta tags, heading structure, content quality, and user experience signals that search engines use to rank pages.",
+      },
+      {
+        title: "Off-Page SEO",
+        description: "Building your website's authority through quality backlinks, brand mentions, social signals, and digital PR to improve domain authority and competitive rankings.",
+      },
+      {
+        title: "Technical SEO",
+        description: "Ensuring search engines can efficiently crawl, index, and understand your website through site speed optimization, mobile-friendliness, schema markup, and technical fixes.",
+      },
+      {
+        title: "Local SEO",
+        description: "Optimizing your online presence for local searches, Google Maps visibility, and location-based queries to capture customers searching in Mumbai and surrounding areas.",
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: "SEO Audit & Analysis",
+        description: "We conduct a comprehensive audit of your website, analyzing technical health, content quality, backlink profile, and competitor landscape to identify opportunities and create a strategic roadmap.",
+      },
+      {
+        step: 2,
+        title: "Keyword Research & Strategy",
+        description: "In-depth keyword research to identify high-value, achievable keywords for your Mumbai business. We map keywords to user intent and prioritize based on traffic potential and competition.",
+      },
+      {
+        step: 3,
+        title: "Technical Optimization",
+        description: "Fix technical issues affecting your rankings—site speed, mobile optimization, crawl errors, indexing issues, and Core Web Vitals to build a solid technical foundation.",
+      },
+      {
+        step: 4,
+        title: "On-Page Optimization",
+        description: "Optimize existing pages and create new SEO-optimized content targeting your priority keywords. We improve meta tags, headings, content structure, and internal linking.",
+      },
+      {
+        step: 5,
+        title: "Off-Page & Link Building",
+        description: "Build your website's authority through strategic link building, digital PR, local citations, and brand building activities that improve your competitive positioning.",
+      },
+      {
+        step: 6,
+        title: "Monitoring & Optimization",
+        description: "Continuous monitoring of rankings, traffic, and conversions with monthly reporting. We refine strategies based on data to maximize your SEO ROI over time.",
+      },
+    ],
+    pricing: [
+      {
+        type: "SEO Starter",
+        price: "₹15,000 - ₹25,000/month",
+        features: [
+          "Up to 10 keywords",
+          "Technical SEO audit & fixes",
+          "On-page optimization",
+          "Google Business Profile optimization",
+          "Monthly reporting",
+          "Email support",
+        ],
+      },
+      {
+        type: "SEO Growth",
+        price: "₹30,000 - ₹50,000/month",
+        features: [
+          "Up to 25 keywords",
+          "Comprehensive technical SEO",
+          "Content strategy & creation",
+          "Local SEO optimization",
+          "Link building (5-10 links/month)",
+          "Bi-weekly reporting & calls",
+        ],
+      },
+      {
+        type: "SEO Professional",
+        price: "₹60,000 - ₹1,00,000/month",
+        features: [
+          "Up to 50 keywords",
+          "Advanced technical optimization",
+          "Content marketing (4-8 articles/month)",
+          "Aggressive link building",
+          "Competitor monitoring",
+          "Weekly reporting & strategy calls",
+        ],
+      },
+      {
+        type: "Enterprise SEO",
+        price: "₹1,50,000+/month",
+        features: [
+          "Unlimited keywords",
+          "Dedicated SEO team",
+          "Custom content strategy",
+          "Digital PR & authority building",
+          "Multiple location optimization",
+          "Priority support & daily monitoring",
+        ],
+      },
+    ],
+    whyChooseUs: [
+      "Proven track record with 150+ successful SEO campaigns delivering measurable ROI for businesses across India",
+      "Data-driven approach—every strategy is backed by thorough research, competitor analysis, and performance data",
+      "Transparent reporting with clear metrics, rankings updates, and ROI tracking so you always know what you're getting",
+      "White-hat SEO only—we follow Google's guidelines to build sustainable rankings that last, not risky shortcuts",
+      "Industry expertise across e-commerce, real estate, healthcare, professional services, and B2B sectors in Mumbai",
+      "Local SEO specialists with deep understanding of Mumbai's market, neighborhoods, and search patterns",
+      "No long-term contracts—our results keep clients, not contracts. Start with a 3-month pilot and see the difference",
+      "Dedicated account manager ensuring seamless communication and strategy alignment throughout our partnership",
+    ],
+    caseStudy: {
+      title: "Mumbai E-commerce Brand Increases Organic Revenue by 285%",
+      industry: "E-commerce / Fashion Retail",
+      challenge: "A fashion e-commerce brand based in Mumbai was heavily dependent on paid advertising with minimal organic traffic. Their website had technical SEO issues, thin product descriptions, and no content strategy. Rising ad costs were eating into margins while competitors dominated organic search.",
+      solution: "We implemented a comprehensive SEO strategy including technical fixes (site speed improved by 60%), product page optimization for 500+ products, category page SEO, a content marketing program targeting fashion-related informational queries, and strategic link building through fashion blogger outreach and digital PR.",
+      results: [
+        "285% increase in organic revenue within 8 months",
+        "Page 1 rankings for 120+ target keywords including 'buy designer sarees online' and 'ethnic wear Mumbai'",
+        "Organic traffic increased from 5,000 to 45,000 monthly visitors",
+        "Cost per acquisition reduced by 65% compared to paid advertising",
+        "Reduced dependency on paid ads from 80% to 35% of total revenue",
+        "Featured snippets captured for 15+ high-volume informational queries",
+      ],
+    },
+    localAreas: [
+      "Andheri",
+      "Bandra",
+      "Navi Mumbai",
+      "Thane",
+      "Lower Parel",
+      "BKC (Bandra Kurla Complex)",
+      "Powai",
+      "Worli",
+      "Juhu",
+      "Malad",
+      "Goregaon",
+      "Borivali",
+      "Kurla",
+      "Chembur",
+      "Vashi",
+      "Panvel",
+    ],
+    faqs: [
+      {
+        question: "How much do SEO services cost in Mumbai?",
+        answer: "SEO services in Mumbai typically range from ₹15,000-₹25,000/month for basic packages targeting small businesses and local keywords, ₹30,000-₹50,000/month for growth packages with content creation and link building, ₹60,000-₹1,00,000/month for professional campaigns with aggressive strategies, and ₹1,50,000+/month for enterprise-level SEO. The right investment depends on your competition level, goals, and timeline. We provide customized quotes after understanding your specific requirements during a free consultation.",
+      },
+      {
+        question: "How long does it take to see SEO results in Mumbai?",
+        answer: "SEO is a medium to long-term strategy. You'll typically start seeing initial improvements in rankings within 2-3 months, noticeable traffic increases by 4-6 months, and significant ROI by 6-12 months. However, timelines vary based on your current website state, competition level, and keyword difficulty. Local SEO for less competitive keywords can show results faster (1-3 months), while competitive commercial keywords take longer. We provide realistic timeline expectations during our strategy consultation.",
+      },
+      {
+        question: "Which is the best SEO company in Mumbai?",
+        answer: "The best SEO company depends on your specific needs, budget, and industry. Look for a company with proven case studies, transparent reporting, white-hat practices, and experience in your industry. Avoid agencies promising guaranteed rankings or overnight results—these are red flags. Fraga Technology has delivered 150+ successful SEO campaigns with documented results across e-commerce, real estate, healthcare, and B2B sectors. Check our case studies and client testimonials to evaluate our track record.",
+      },
+      {
+        question: "Do you guarantee first page Google rankings?",
+        answer: "No legitimate SEO company can guarantee specific rankings because Google's algorithm considers 200+ factors and changes constantly. Beware of agencies making such guarantees—they often use black-hat tactics that can get your site penalized. What we guarantee is transparent, ethical SEO work following Google's best practices, regular reporting on progress, and a data-driven approach that has consistently delivered results for our Mumbai clients. Our track record speaks for itself.",
+      },
+      {
+        question: "What's included in your Mumbai SEO services?",
+        answer: "Our SEO services include technical SEO audits and fixes, keyword research and strategy, on-page optimization, content creation and optimization, local SEO and Google Business Profile optimization, link building and digital PR, competitor analysis, monthly reporting with rankings and traffic data, and regular strategy calls. The specific deliverables are customized based on your package and business needs.",
+      },
+      {
+        question: "Do you offer local SEO services for Mumbai businesses?",
+        answer: "Yes, local SEO is one of our specialties. We help Mumbai businesses rank in Google Maps and local search results for 'near me' queries. This includes Google Business Profile optimization, local citation building, location-specific content, review management strategies, and local link building. We serve businesses across Andheri, Bandra, Navi Mumbai, Thane, Lower Parel, and throughout the Mumbai Metropolitan Region.",
+      },
+      {
+        question: "Can you do SEO for my e-commerce website in Mumbai?",
+        answer: "Absolutely. E-commerce SEO is a core specialty. We've helped Mumbai e-commerce brands achieve significant organic traffic and revenue growth. Our e-commerce SEO services include product page optimization, category structure improvement, technical e-commerce SEO, content marketing for buyer journeys, and conversion optimization. Check our case study showing 285% organic revenue increase for a Mumbai fashion e-commerce brand.",
+      },
+    ],
+    ctaText: "Get Free SEO Audit",
+  },
 }
 
 export function getServiceCityBySlug(slug: string): ServiceCityData | undefined {
