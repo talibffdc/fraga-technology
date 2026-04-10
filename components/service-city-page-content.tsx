@@ -589,6 +589,59 @@ export default function ServiceCityPageContent({ serviceCity }: { serviceCity: S
                   Contact Us
                 </Link>
               </div>
+
+              {/* Cross-links to other cities */}
+              <h4 className="mb-4 mt-8 text-sm font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                {serviceCity.serviceName} in Other Cities
+              </h4>
+              <div className="flex flex-wrap gap-3">
+                {serviceCity.serviceSlug === "website-development" && (
+                  <>
+                    {serviceCity.citySlug !== "mumbai" && (
+                      <Link
+                        href="/services/website-development-mumbai"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        Website Development Mumbai
+                      </Link>
+                    )}
+                    {serviceCity.citySlug !== "delhi" && (
+                      <Link
+                        href="/services/website-development-delhi"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        Website Development Delhi
+                      </Link>
+                    )}
+                  </>
+                )}
+                {serviceCity.serviceSlug === "seo-services" && (
+                  <>
+                    {serviceCity.citySlug !== "mumbai" && (
+                      <Link
+                        href="/services/seo-services-mumbai"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        SEO Services Mumbai
+                      </Link>
+                    )}
+                    {serviceCity.citySlug !== "bangalore" && (
+                      <Link
+                        href="/services/seo-services-bangalore"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        SEO Services Bangalore
+                      </Link>
+                    )}
+                  </>
+                )}
+                <Link
+                  href="/cities"
+                  className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                >
+                  View All Cities
+                </Link>
+              </div>
             </motion.section>
 
             {/* FAQ Section */}
