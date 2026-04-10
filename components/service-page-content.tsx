@@ -298,6 +298,12 @@ export default function ServicePageContent({ service }: { service: ServiceData }
                     >
                       Website Development Delhi
                     </Link>
+                    <Link
+                      href="/services/website-development-bangalore"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      Website Development Bangalore
+                    </Link>
                   </>
                 )}
                 {service.slug === "seo-services" && (
@@ -313,6 +319,12 @@ export default function ServicePageContent({ service }: { service: ServiceData }
                       className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
                     >
                       SEO Services Bangalore
+                    </Link>
+                    <Link
+                      href="/services/seo-services-lucknow"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      SEO Services Lucknow
                     </Link>
                   </>
                 )}
