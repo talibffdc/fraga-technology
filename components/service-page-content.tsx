@@ -320,6 +320,12 @@ export default function ServicePageContent({ service }: { service: ServiceData }
                     >
                       SEO Services Bangalore
                     </Link>
+                    <Link
+                      href="/services/seo-services-lucknow"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      SEO Services Lucknow
+                    </Link>
                   </>
                 )}
                 <Link

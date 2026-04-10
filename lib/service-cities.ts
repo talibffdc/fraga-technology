@@ -1290,6 +1290,247 @@ Whether you're a tech startup in Koramangala raising your Series A, an e-commerc
     ],
     ctaText: "Get Free Website Quote",
   },
+  "seo-services-lucknow": {
+    slug: "seo-services-lucknow",
+    serviceSlug: "seo-services",
+    citySlug: "lucknow",
+    serviceName: "SEO Services",
+    cityName: "Lucknow",
+    title: "SEO Services in Lucknow",
+    metaTitle: "SEO Services in Lucknow | Best SEO Company Lucknow | Fraga Technology",
+    metaDescription: "Looking for professional SEO services in Lucknow? Fraga Technology is a trusted SEO company in Lucknow offering local SEO, technical SEO & content optimization. Rank higher on Google and grow your business. Get a free SEO audit today!",
+    keywords: [
+      "SEO services Lucknow",
+      "SEO company Lucknow",
+      "best SEO agency Lucknow",
+      "local SEO Lucknow",
+      "affordable SEO Lucknow",
+      "SEO consultant Lucknow",
+      "SEO expert Lucknow",
+      "digital marketing Lucknow",
+      "Google ranking Lucknow",
+      "organic traffic Lucknow",
+      "SEO packages Lucknow",
+      "small business SEO Lucknow",
+    ],
+    heroTitle: "Professional SEO Services in Lucknow",
+    heroDescription: "Rank higher on Google, drive organic traffic, and grow your business with our data-driven SEO services. We help Lucknow businesses dominate local search results and outrank competitors across Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, and the entire Lucknow region.",
+    introduction: `Lucknow, the capital of Uttar Pradesh and one of North India's fastest-growing commercial hubs, is experiencing a digital transformation. With over 3.5 million residents and a rapidly expanding business ecosystem, Lucknow businesses are increasingly recognizing the importance of online visibility to capture the growing number of customers who search online before making purchasing decisions.
+
+Fraga Technology is a leading SEO company in Lucknow, trusted by startups, SMEs, and established businesses across Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar, and the entire Lucknow region. We specialize in data-driven SEO strategies that deliver measurable results—higher rankings, increased organic traffic, and more qualified leads for your business.
+
+Whether you're a retail business in Hazratganj, a healthcare provider in Gomti Nagar, a coaching institute in Aliganj, or a manufacturing company in the industrial areas, our Lucknow SEO team develops customized strategies tailored to your specific industry, competition, and business goals. We understand Lucknow's unique market dynamics and build sustainable organic growth engines that deliver ROI month after month.`,
+    whyBusinessesNeed: {
+      title: "Why Lucknow Businesses Need Professional SEO Services",
+      points: [
+        "Lucknow has over 3.5 million residents actively searching Google for products and services—without SEO, you're invisible to potential customers",
+        "Digital adoption in Lucknow has grown by 45% in recent years—businesses without online presence lose market share daily",
+        "Organic search drives the highest quality leads—customers searching for your services are ready to buy",
+        "Local searches like 'best [service] in Lucknow' have grown exponentially—local SEO captures these high-intent customers",
+        "SEO provides 24/7 visibility—unlike paid ads, your rankings work for you even when you stop investing",
+        "Lucknow's business competition is increasing—SEO helps you stand out in the crowded marketplace",
+        "Building trust and credibility—users trust organic search results more than paid advertisements",
+        "The ROI of SEO compounds over time—today's investment delivers traffic and leads for years to come",
+      ],
+    },
+    services: [
+      {
+        title: "Local SEO Lucknow",
+        description: "Dominate local search results and Google Maps in Lucknow. We optimize your Google Business Profile, build local citations, and implement location-specific strategies to help you rank for 'near me' searches across Gomti Nagar, Hazratganj, Aliganj, and Indira Nagar.",
+      },
+      {
+        title: "Technical SEO",
+        description: "Comprehensive technical optimization including site speed improvements, Core Web Vitals optimization, mobile-first indexing, schema markup implementation, crawlability fixes, and site architecture improvements to build a strong SEO foundation.",
+      },
+      {
+        title: "On-Page SEO",
+        description: "Strategic keyword optimization, meta tag optimization, content structure improvements, internal linking strategies, and user experience enhancements to maximize your pages' ranking potential for target keywords in Lucknow's market.",
+      },
+      {
+        title: "Content Marketing & SEO",
+        description: "High-quality, SEO-optimized content creation including blog posts, service pages, landing pages, and pillar content that establishes topical authority and drives organic traffic for Lucknow businesses.",
+      },
+      {
+        title: "E-commerce SEO",
+        description: "Specialized SEO for Lucknow's growing e-commerce sector—product page optimization, category structure, technical e-commerce SEO, and conversion optimization to increase organic sales and revenue.",
+      },
+      {
+        title: "Link Building & Off-Page SEO",
+        description: "White-hat link building strategies including digital PR, guest posting, business citations, and authority building to improve your domain authority and competitive positioning in Lucknow's market.",
+      },
+    ],
+    websiteTypes: [
+      {
+        title: "On-Page SEO",
+        description: "Optimizing individual pages for target keywords, improving meta tags, heading structure, content quality, and user experience signals that search engines use to rank pages in Lucknow search results.",
+      },
+      {
+        title: "Off-Page SEO",
+        description: "Building your website's authority through quality backlinks, brand mentions, social signals, and digital PR to improve domain authority and competitive rankings in Lucknow's growing market.",
+      },
+      {
+        title: "Technical SEO",
+        description: "Ensuring search engines can efficiently crawl, index, and understand your website through site speed optimization, mobile-friendliness, schema markup, and technical fixes.",
+      },
+      {
+        title: "Local SEO",
+        description: "Optimizing your online presence for local searches, Google Maps visibility, and location-based queries to capture customers searching in Lucknow and surrounding areas of Uttar Pradesh.",
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: "SEO Audit & Analysis",
+        description: "We conduct a comprehensive audit of your website, analyzing technical health, content quality, backlink profile, and competitor landscape in Lucknow to identify opportunities and create a strategic roadmap.",
+      },
+      {
+        step: 2,
+        title: "Keyword Research & Strategy",
+        description: "In-depth keyword research to identify high-value, achievable keywords for your Lucknow business. We map keywords to user intent and prioritize based on traffic potential and local competition.",
+      },
+      {
+        step: 3,
+        title: "Technical Optimization",
+        description: "Fix technical issues affecting your rankings—site speed, mobile optimization, crawl errors, indexing issues, and Core Web Vitals to build a solid technical foundation for your Lucknow business.",
+      },
+      {
+        step: 4,
+        title: "On-Page Optimization",
+        description: "Optimize existing pages and create new SEO-optimized content targeting your priority keywords. We improve meta tags, headings, content structure, and internal linking.",
+      },
+      {
+        step: 5,
+        title: "Off-Page & Link Building",
+        description: "Build your website's authority through strategic link building, digital PR, local citations, and brand building activities that improve your competitive positioning in Lucknow.",
+      },
+      {
+        step: 6,
+        title: "Monitoring & Optimization",
+        description: "Continuous monitoring of rankings, traffic, and conversions with monthly reporting. We refine strategies based on data to maximize your SEO ROI over time.",
+      },
+    ],
+    pricing: [
+      {
+        type: "SEO Starter",
+        price: "₹10,000 - ₹20,000/month",
+        features: [
+          "Up to 10 keywords",
+          "Technical SEO audit & fixes",
+          "On-page optimization",
+          "Google Business Profile optimization",
+          "Monthly reporting",
+          "Email support",
+        ],
+      },
+      {
+        type: "SEO Growth",
+        price: "₹25,000 - ₹40,000/month",
+        features: [
+          "Up to 25 keywords",
+          "Comprehensive technical SEO",
+          "Content strategy & creation",
+          "Local SEO optimization",
+          "Link building (5-10 links/month)",
+          "Bi-weekly reporting & calls",
+        ],
+      },
+      {
+        type: "SEO Professional",
+        price: "₹50,000 - ₹80,000/month",
+        features: [
+          "Up to 50 keywords",
+          "Advanced technical optimization",
+          "Content marketing (4-8 articles/month)",
+          "Aggressive link building",
+          "Competitor monitoring",
+          "Weekly reporting & strategy calls",
+        ],
+      },
+      {
+        type: "Enterprise SEO",
+        price: "₹1,00,000+/month",
+        features: [
+          "Unlimited keywords",
+          "Dedicated SEO team",
+          "Custom content strategy",
+          "Digital PR & authority building",
+          "Multiple location optimization",
+          "Priority support & daily monitoring",
+        ],
+      },
+    ],
+    whyChooseUs: [
+      "Proven track record with 150+ successful SEO campaigns delivering measurable ROI for businesses across India",
+      "Data-driven approach—every strategy is backed by thorough research, competitor analysis, and performance data",
+      "Affordable SEO packages designed specifically for Lucknow's growing business market",
+      "Transparent reporting with clear metrics, rankings updates, and ROI tracking so you always know what you're getting",
+      "White-hat SEO only—we follow Google's guidelines to build sustainable rankings that last, not risky shortcuts",
+      "Industry expertise across retail, healthcare, education, real estate, and professional services in Lucknow",
+      "No long-term contracts—our results keep clients, not contracts. Start with a 3-month pilot and see the difference",
+      "Dedicated account manager ensuring seamless communication and strategy alignment throughout our partnership",
+    ],
+    caseStudy: {
+      title: "Lucknow Coaching Institute Increases Student Enrollments by 250%",
+      industry: "Education / Coaching",
+      challenge: "A popular coaching institute in Gomti Nagar was struggling to attract new students despite having excellent faculty and results. Their website had poor visibility on Google, and they were heavily dependent on offline marketing and word-of-mouth, which limited their reach to students across Lucknow.",
+      solution: "We implemented a comprehensive local SEO strategy including Google Business Profile optimization, creating location-specific landing pages for different areas of Lucknow, building local citations, optimizing for education-related keywords, and creating content targeting students searching for coaching institutes. We also implemented review generation strategies to build social proof.",
+      results: [
+        "250% increase in student enrollment inquiries within 6 months",
+        "Page 1 rankings for 40+ keywords including 'best coaching institute Lucknow' and 'IIT coaching Gomti Nagar'",
+        "Organic website traffic increased from 800 to 5,500 monthly visitors",
+        "Google Business Profile views increased by 400%",
+        "Reduced dependency on offline marketing by 60%",
+        "Student inquiries from across Lucknow, not just nearby areas",
+      ],
+    },
+    localAreas: [
+      "Gomti Nagar",
+      "Hazratganj",
+      "Aliganj",
+      "Indira Nagar",
+      "Mahanagar",
+      "Alambagh",
+      "Charbagh",
+      "Aminabad",
+      "Rajajipuram",
+      "Vikas Nagar",
+      "Aashiana",
+      "Jankipuram",
+      "Chinhat",
+      "Faizabad Road",
+    ],
+    faqs: [
+      {
+        question: "How much do SEO services cost in Lucknow?",
+        answer: "SEO services in Lucknow are competitively priced compared to metro cities. Basic packages start from ₹10,000-₹20,000/month for small businesses targeting local keywords, growth packages range from ₹25,000-₹40,000/month with content and link building, professional campaigns cost ₹50,000-₹80,000/month, and enterprise-level SEO starts from ₹1,00,000+/month. The right investment depends on your competition level and business goals. We offer affordable packages specifically designed for Lucknow's market. Contact us for a free consultation and customized quote.",
+      },
+      {
+        question: "How long does it take to see SEO results in Lucknow?",
+        answer: "SEO is a medium to long-term investment. You'll typically see initial ranking improvements within 2-3 months, noticeable traffic increases by 4-6 months, and significant ROI by 6-12 months. Lucknow's market is less competitive than metro cities for many keywords, so you may see faster results for local terms. Local SEO improvements (Google Maps rankings) can show results within 1-3 months. We provide realistic timeline expectations based on your specific competitive landscape during our strategy consultation.",
+      },
+      {
+        question: "Which is the best SEO company in Lucknow?",
+        answer: "The best SEO company depends on your specific requirements and budget. Look for a company with proven case studies, transparent reporting, white-hat practices, and experience in your industry. Avoid agencies promising guaranteed rankings or overnight results—these are red flags for black-hat practices. Fraga Technology has delivered 150+ successful SEO campaigns with documented results. We offer affordable, results-driven SEO specifically designed for Lucknow businesses. Check our case studies and client testimonials to evaluate our track record.",
+      },
+      {
+        question: "Do you offer local SEO services for Lucknow businesses?",
+        answer: "Yes, local SEO is one of our core specialties. We help Lucknow businesses rank in Google Maps and local search results for 'near me' queries. This includes Google Business Profile optimization, local citation building across 50+ directories, location-specific content creation, review management strategies, and local link building. We serve businesses across Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, and throughout Lucknow.",
+      },
+      {
+        question: "What industries do you serve for SEO in Lucknow?",
+        answer: "We provide SEO services for diverse industries in Lucknow including coaching institutes and education, healthcare clinics and hospitals, retail and e-commerce, real estate, restaurants and hospitality, professional services (lawyers, CAs, consultants), manufacturing, and local service businesses. Our team understands the unique search patterns and competition in each industry and develops customized strategies accordingly.",
+      },
+      {
+        question: "Can small businesses in Lucknow afford professional SEO?",
+        answer: "Absolutely. We've designed affordable SEO packages specifically for Lucknow's small and medium businesses. Our starter packages begin at ₹10,000/month—significantly lower than metro city pricing—while still delivering professional-quality SEO. Small businesses often see excellent ROI from local SEO because competition is lower than in bigger cities. We focus on high-impact, cost-effective strategies that deliver results without breaking your budget.",
+      },
+      {
+        question: "What's included in your Lucknow SEO services?",
+        answer: "Our SEO services include comprehensive technical SEO audits and fixes, keyword research and strategy, on-page optimization, content creation and optimization, local SEO and Google Business Profile optimization, link building and digital PR, competitor analysis, monthly reporting with rankings and traffic data, and regular strategy calls. The specific deliverables are customized based on your package and business needs. All packages include transparent reporting so you always know what work is being done.",
+      },
+    ],
+    ctaText: "Get Free SEO Audit",
+  },
 }
 
 export function getServiceCityBySlug(slug: string): ServiceCityData | undefined {

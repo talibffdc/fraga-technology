@@ -641,6 +641,14 @@ export default function ServiceCityPageContent({ serviceCity }: { serviceCity: S
                         SEO Services Bangalore
                       </Link>
                     )}
+                    {serviceCity.citySlug !== "lucknow" && (
+                      <Link
+                        href="/services/seo-services-lucknow"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        SEO Services Lucknow
+                      </Link>
+                    )}
                   </>
                 )}
                 <Link
