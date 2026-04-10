@@ -10,7 +10,7 @@ const quickLinks = [
   { label: "Portfolio", href: "/#projects" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/#contact" },
-  { label: "Sitemap", href: "/sitemap-html" },
+  { label: "Sitemap", href: "/sitemap" },
 ]
 
 const socialLinks = [
