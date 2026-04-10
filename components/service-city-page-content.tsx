@@ -613,6 +613,14 @@ export default function ServiceCityPageContent({ serviceCity }: { serviceCity: S
                         Website Development Delhi
                       </Link>
                     )}
+                    {serviceCity.citySlug !== "bangalore" && (
+                      <Link
+                        href="/services/website-development-bangalore"
+                        className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                      >
+                        Website Development Bangalore
+                      </Link>
+                    )}
                   </>
                 )}
                 {serviceCity.serviceSlug === "seo-services" && (
