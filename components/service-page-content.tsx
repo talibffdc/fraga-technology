@@ -266,6 +266,83 @@ export default function ServicePageContent({ service }: { service: ServiceData }
               </motion.section>
             )}
 
+            {/* Location-Based Services */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="mb-20 rounded-2xl border border-border bg-card p-8 md:p-10"
+            >
+              <h2 className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+                Local Services
+              </h2>
+              <h3 className="mb-6 font-serif text-2xl font-bold text-foreground md:text-3xl">
+                {service.title} by City
+              </h3>
+              <p className="mb-6 text-muted-foreground">
+                We provide specialized {service.title.toLowerCase()} services across major Indian cities:
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {service.slug === "website-development" && (
+                  <>
+                    <Link
+                      href="/services/website-development-mumbai"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      Website Development Mumbai
+                    </Link>
+                    <Link
+                      href="/services/website-development-delhi"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      Website Development Delhi
+                    </Link>
+                  </>
+                )}
+                {service.slug === "seo-services" && (
+                  <>
+                    <Link
+                      href="/services/seo-services-mumbai"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      SEO Services Mumbai
+                    </Link>
+                    <Link
+                      href="/services/seo-services-bangalore"
+                      className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      SEO Services Bangalore
+                    </Link>
+                  </>
+                )}
+                <Link
+                  href="/cities/delhi"
+                  className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                >
+                  Delhi
+                </Link>
+                <Link
+                  href="/cities/bangalore"
+                  className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                >
+                  Bangalore
+                </Link>
+                <Link
+                  href="/cities/noida"
+                  className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                >
+                  Noida
+                </Link>
+                <Link
+                  href="/cities/lucknow"
+                  className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:bg-primary/5"
+                >
+                  Lucknow
+                </Link>
+              </div>
+            </motion.section>
+
             {/* Industries served */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}
